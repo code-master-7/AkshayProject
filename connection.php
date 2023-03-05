@@ -5,7 +5,7 @@ $con_server = mysqli_connect("localhost", "root", "");
 $i = mysqli_query( $con_server,"SHOW DATABASES LIKE 'Akshay' ");
 
 // if($i){
-    $sql = 'CREATE DATABASE IF NOT EXISTS DBName;';
+    $sql = 'CREATE DATABASE IF NOT EXISTS Akshay;';
 
     if (mysqli_query($con_server,$sql)) {
         // echo "Database my_db created successfully\n";
