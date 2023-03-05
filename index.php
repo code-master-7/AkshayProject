@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+
+include "connection.php";
+include "enc.php";
+
+?>
 
 <head>
     <meta charset="UTF-8">
@@ -104,11 +110,8 @@
                 </div> -->
                 <div class="col-md-3">
                     <div class="p-3 bg-white shadow-sm d-flex justify-content-arounf align items-center rounded">
-                        <form action="" method="get">
-                            <div class="btn btn-success">
-                                Add Project
-                            </div>
-
+                        <form action="getid.php" method="get">
+                            <input type="submit" class="btn btn-success" value="Add Project">
                         </form>
 
                         <!-- <div>
@@ -126,7 +129,7 @@
                     <table class="table bg-white rounded shadow-sm table-hover">
                         <thead>
                             <tr>
-                                <th scope="col" width="50">#</th>
+                                <th scope="col" width="50"> </th>
                                 <th scope="col">Client</th>
                                 <th scope="col">Company</th>
                                 <th scope="col">Project</th>
