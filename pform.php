@@ -90,7 +90,7 @@ if (isset($_GET['id'])) {
                     </div>
                     <div class="form-row">
                         <div class="col-lg-7">
-                            <button type="button"  class="btn1 my-1">OK</button>
+                            <button type="button"  class="btn1 my-1">Save</button>
                         </div>
                     </div>
                 </form>
