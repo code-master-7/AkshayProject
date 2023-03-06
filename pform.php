@@ -54,16 +54,17 @@ if (isset($_GET['id'])) {
             border-radius: 4px;
             font-weight: bold;
         }
-
-        .btn2 {
+            .btn2{
             border: none;
             outline: none;
             height: 50px;
             width: 100px;
-            background-color: black;
+            background-color:black;
             color: aliceblue;
             border-radius: 4px;
             font-weight: bold;
+            text-align: center;
+        
         }
 
         .btn {
@@ -128,6 +129,11 @@ if (isset($_GET['id'])) {
             transform: translatex(-50%);
             z-index: 1000;
         }
+        .abc{
+    width: 100%;
+    height: 100%;
+    contain: layout;
+}
     </style>
     <title>Form</title>
 </head>
@@ -196,7 +202,7 @@ if (isset($_GET['id'])) {
                 <div class="container">
                     <div class="row px-5 pt-4">
                         <div class="col-lg-2 px-9 pt-9">
-                            <input type="text" style="width: 100%" class="btn2 my-1" placeholder="Enter Post Name">
+                            <input type="text"  class="btn2 my-1" placeholder=" Post Name">
                             <!-- <button type="tex" class="btn2 my-1">Post 1</button> -->
                         </div>
                         <!-- <div id="container11"> -->
@@ -207,7 +213,9 @@ if (isset($_GET['id'])) {
                                         <img class="card-img-top" src="images/bg.jpg" alt="Image">
                                         <div class="card-body">
                                             <!-- <h5 class="card-title">Post Title</h5> -->
-                                            <p class="card-text"><textarea style="height: 100% weidth: 100%"></textarea>
+                                            <p class="card-text">
+                                                <textarea class="abc my-2"  ></textarea>
+                                          
                                             </p>
                                             <!-- <a href="#" class="btn btn-primary">Go</a> -->
                                         </div>
@@ -233,7 +241,7 @@ if (isset($_GET['id'])) {
             <div class="container">
                 <div class="row px-5 pt-4">
                     <div class="col-lg-2 px-9 pt-9">
-                        <input type="text" style="width: 100%" class="btn2 my-1" placeholder="Enter Post Name">
+                        <input type="text" style="width: 100%" class="btn2 my-1" placeholder="Post Name">
                         <!-- <button type="tex" class="btn2 my-1">Post 1</button> -->
                     </div>
                     <div id="container11">
