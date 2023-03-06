@@ -8,7 +8,7 @@ include "enc.php";
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $id = encryptor('decrypt', $id);
-    echo $id;
+    // echo $id;
 }
 
 ?>
@@ -129,25 +129,15 @@ if (isset($_GET['id'])) {
             z-index: 1000;
         }
     </style>
-    <title>Screen</title>
+    <title>Form</title>
 </head>
 
 <body>
     <div class="card text-center">
         <div class="card-header">
             <ul class="nav nav-tabs card-header-tabs">
-                <!-- <li class="nav-item">
-              <a class="nav-link active" href="#"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#"></a>
-            </li>-->
-                <!--<h1>Website Name</h1>-->
                 <i class="fas fa-user-secret me-2"></i>
-                <h2>Website Name</h2>
+                <h2>Akshay</h2>
             </ul>
         </div>
     </div>
@@ -173,7 +163,7 @@ if (isset($_GET['id'])) {
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                Number: <input type="number" placeholder="*******" class="form-control my-1">
+                                Number: <input type="number" placeholder="Enter Number" class="form-control my-1">
                             </div>
                         </div>
                         <div class="form-row">
@@ -200,83 +190,85 @@ if (isset($_GET['id'])) {
                 </div>
             </div>
     </section>
-    <!-- <section>
-    <div class="container ">
-        <div class="row px-5 pt-4">
-            <div class="col-lg-2 px-9 pt-5">
-                <button type="button"  class="btn2 my-1">Post 1</button>
-            </div>
-            <div class="col-md-auto">   
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="bg.jpg/100px180/" alt="Image">
-                    <div class="card-body">
-                      <h5 class="card-title">Post Title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go</a>
-                    </div>
-                    
-                  </div>
-            </div>
-            <div class="col-lg-2 px-9 pt-5">
-                <button class="bb-add-section top">+Add Section</button>
-            </div>
-        </div>
-
-    </div>
-   </section> -->
-
-    <div id="container">
-        <!-- <button id="newsectionbtn">+New Section</button> -->
-        <section id="mainsection">
-            <div class="container ">
+   <div id="container">
+     <div id="element">
+     <section id="mainsectionIDEAl">
+            <div class="container">
                 <div class="row px-5 pt-4">
-                    <div class="col-lg-2 px-9 pt-5">
-                        <button type="button" class="btn2 my-1">Post 1</button>
+                <div class="col-lg-2 px-9 pt-9">
+                        <input type="text" style="width: 100%" class="btn2 my-1" placeholder="Enter Post Name">
+                        <!-- <button type="tex" class="btn2 my-1">Post 1</button> -->
                     </div>
-                    <div class="col-md-auto">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="bg.jpg/100px180/" alt="Image">
-                            <div class="card-body">
-                                <h5 class="card-title">Post Title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go</a>
+                    <!-- <div id="container11"> -->
+                        <section id="mainsection1">
+                            <div class="container11">
+                                <div class="col-md-auto">
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/bg.jpg" alt="Image">
+                                        <div class="card-body">
+                                            <!-- <h5 class="card-title">Post Title</h5> -->
+                                            <p class="card-text"><textarea style="height: 100% weidth: 100%"></textarea></p>
+                                            <!-- <a href="#" class="btn btn-primary">Go</a> -->
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                        </section>
+                    <!-- </div> -->
 
-                        </div>
-                    </div>
-                    <div class="col-lg-2 px-9 pt-5">
-                        <button class="bb-add-section top" id="newpostbtn">+Add Section</button>
+                    <div class="col-lg-2 px-9 pt-5 abc">
+                        <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button>
                     </div>
                 </div>
-
             </div>
-            <!-- <table>
-      <thead>
-        <tr>
-        <th>Field 1</th>
-        <th>Field 2</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><input type="text" name="f1" /></td>
-          <td><input type="text" name="f2" /></td>
-        </tr>
-      </tbody>
-    </table> -->
         </section>
+     </div>
+        <!-- <button id="newsectionbtn">+New Section</button> -->
     </div>
 
-    <div class="abc ">
+    <div id="container">
+     <!-- <div id="element"> -->
+     <section id="mainsectionIDEAl">
+            <div class="container">
+                <div class="row px-5 pt-4">
+                <div class="col-lg-2 px-9 pt-9">
+                        <input type="text" style="width: 100%" class="btn2 my-1" placeholder="Enter Post Name">
+                        <!-- <button type="tex" class="btn2 my-1">Post 1</button> -->
+                    </div>
+                    <div id="container11">
+                        <section id="mainsection1">
+                            <div class="container11">
+                                <div class="col-md-auto">
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/bg.jpg" alt="Image">
+                                        <div class="card-body">
+                                            <!-- <h5 class="card-title">Post Title</h5> -->
+                                            <p class="card-text"><textarea style="height: 100% weidth: 100%"></textarea></p>
+                                            <!-- <a href="#" class="btn btn-primary">Go</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-lg-2 px-9 pt-5 abc">
+                        <button class="bb-add-section top" id="newpostbtn1">+ Add Image</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+     <!-- </div> -->
+        <!-- <button id="newsectionbtn">+New Section</button> -->
+    </div>
+
+    <div class="abc">
         <!--<div class="col-lg-2 px-9 pt-5">-->
-        <button class="bb top" id="newsectionbtn">+Add Post</button>
+        <button class="bb top" id="newsectionbtn">+ Add Post</button>
     </div>
     </div>
 
     </div>
-
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -291,36 +283,18 @@ if (isset($_GET['id'])) {
 </body>
 
 <script>
-        document.getElementById("newsectionbtn").onclick = function () {
-        var container = document.getElementById("container");
-        var section = document.getElementById("mainsection");
-        container.appendChild(section.cloneNode(true));
-    }
-    </script>
-    <script> 
-    document.getElementById("newpostbtn").onclick = function () {
-        alert("WTF");
-        var container = document.getElementById("container1");
-        var section = document.getElementById("mainsection1");
-        container.appendChild(section.cloneNode(true));
-    }
-<<<<<<< HEAD
-
-=======
+    document.getElementById("element").style.display = "none";
+    
     document.getElementById("newsectionbtn").onclick = function () {
         var container = document.getElementById("container");
-        var section = document.getElementById("mainsection");
+        var section = document.getElementById("mainsectionIDEAl");
         container.appendChild(section.cloneNode(true));
     }
-    </script>
-    <script> 
-    document.getElementById("newpostbtn").onclick = function () {
-        alert("WTF");
-        var container = document.getElementById("container1");
+    document.getElementById("newpostbtn1").onclick = function () {
+        var container = document.getElementById("container11");
         var section = document.getElementById("mainsection1");
         container.appendChild(section.cloneNode(true));
     }
->>>>>>> f16db6e22d50258e303ba0bb84e6a27669c6408e
 </script>
 
 </html>
