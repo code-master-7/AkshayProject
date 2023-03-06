@@ -246,7 +246,7 @@ if (isset($_GET['id'])) {
                         </div>
                     </div>
                     <div class="col-lg-2 px-9 pt-5">
-                        <button class="bb-add-section top">+Add Section</button>
+                        <button class="bb-add-section top" id="newpostbtn">+Add Section</button>
                     </div>
                 </div>
 
