@@ -179,27 +179,27 @@ if (isset($_GET['id'])) {
                         <div>
 
                         </div>
-                        <div class="form-row">
+                        <!-- <div class="form-row">
                             <div class="col-lg-7">
                                 <button type="button" class="btn1 my-1">OK</button>
                             </div>
-                        </div>
-                    </form>
+                        </div> -->
+
                 </div>
                 <div class="col-lg-7">
                 </div>
             </div>
     </section>
-   <div id="container">
-     <div id="element">
-     <section id="mainsectionIDEAl">
-            <div class="container">
-                <div class="row px-5 pt-4">
-                <div class="col-lg-2 px-9 pt-9">
-                        <input type="text" style="width: 100%" class="btn2 my-1" placeholder="Enter Post Name">
-                        <!-- <button type="tex" class="btn2 my-1">Post 1</button> -->
-                    </div>
-                    <!-- <div id="container11"> -->
+    <div id="container">
+        <div id="element">
+            <section id="mainsectionIDEAl">
+                <div class="container">
+                    <div class="row px-5 pt-4">
+                        <div class="col-lg-2 px-9 pt-9">
+                            <input type="text" style="width: 100%" class="btn2 my-1" placeholder="Enter Post Name">
+                            <!-- <button type="tex" class="btn2 my-1">Post 1</button> -->
+                        </div>
+                        <!-- <div id="container11"> -->
                         <section id="mainsection1">
                             <div class="container11">
                                 <div class="col-md-auto">
@@ -207,31 +207,32 @@ if (isset($_GET['id'])) {
                                         <img class="card-img-top" src="images/bg.jpg" alt="Image">
                                         <div class="card-body">
                                             <!-- <h5 class="card-title">Post Title</h5> -->
-                                            <p class="card-text"><textarea style="height: 100% weidth: 100%"></textarea></p>
+                                            <p class="card-text"><textarea style="height: 100% weidth: 100%"></textarea>
+                                            </p>
                                             <!-- <a href="#" class="btn btn-primary">Go</a> -->
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                    <!-- </div> -->
+                        <!-- </div> -->
 
-                    <div class="col-lg-2 px-9 pt-5 abc">
-                        <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button>
+                        <div class="col-lg-2 px-9 pt-5 abc">
+                            <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-     </div>
+            </section>
+        </div>
         <!-- <button id="newsectionbtn">+New Section</button> -->
     </div>
 
     <div id="container">
-     <!-- <div id="element"> -->
-     <section id="mainsectionIDEAl">
+        <!-- <div id="element"> -->
+        <section id="mainsectionIDEAl">
             <div class="container">
                 <div class="row px-5 pt-4">
-                <div class="col-lg-2 px-9 pt-9">
+                    <div class="col-lg-2 px-9 pt-9">
                         <input type="text" style="width: 100%" class="btn2 my-1" placeholder="Enter Post Name">
                         <!-- <button type="tex" class="btn2 my-1">Post 1</button> -->
                     </div>
@@ -243,7 +244,8 @@ if (isset($_GET['id'])) {
                                         <img class="card-img-top" src="images/bg.jpg" alt="Image">
                                         <div class="card-body">
                                             <!-- <h5 class="card-title">Post Title</h5> -->
-                                            <p class="card-text"><textarea style="height: 100% weidth: 100%"></textarea></p>
+                                            <p class="card-text"><textarea style="height: 100% weidth: 100%"></textarea>
+                                            </p>
                                             <!-- <a href="#" class="btn btn-primary">Go</a> -->
                                         </div>
                                     </div>
@@ -258,7 +260,7 @@ if (isset($_GET['id'])) {
                 </div>
             </div>
         </section>
-     <!-- </div> -->
+        <!-- </div> -->
         <!-- <button id="newsectionbtn">+New Section</button> -->
     </div>
 
@@ -269,7 +271,22 @@ if (isset($_GET['id'])) {
     </div>
 
     </div>
+    <input type="Submit" class="btn btn-success" value="Save">
+    </form>
 
+
+     <form action="upload.php"
+           method="post"
+           enctype="multipart/form-data">
+
+           <input type="file" 
+                  name="my_image">
+
+           <input type="submit" 
+                  name="submit"
+                  value="Upload">
+     	
+     </form>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -284,7 +301,7 @@ if (isset($_GET['id'])) {
 
 <script>
     document.getElementById("element").style.display = "none";
-    
+
     document.getElementById("newsectionbtn").onclick = function () {
         var container = document.getElementById("container");
         var section = document.getElementById("mainsectionIDEAl");
