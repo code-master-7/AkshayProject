@@ -288,6 +288,8 @@ if (isset($_GET['id'])) {
         var section = document.getElementById("mainsection");
         container.appendChild(section.cloneNode(true));
     }
+    </script>
+    <script> 
     document.getElementById("newpostbtn").onclick = function () {
         alert("WTF");
         var container = document.getElementById("container1");
