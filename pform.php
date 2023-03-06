@@ -291,6 +291,19 @@ if (isset($_GET['id'])) {
 </body>
 
 <script>
+        document.getElementById("newsectionbtn").onclick = function () {
+        var container = document.getElementById("container");
+        var section = document.getElementById("mainsection");
+        container.appendChild(section.cloneNode(true));
+    }
+    </script>
+    <script> 
+    document.getElementById("newpostbtn").onclick = function () {
+        alert("WTF");
+        var container = document.getElementById("container1");
+        var section = document.getElementById("mainsection1");
+        container.appendChild(section.cloneNode(true));
+    }
 <<<<<<< HEAD
 
 =======
