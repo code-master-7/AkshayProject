@@ -224,10 +224,48 @@ if (isset($_GET['id'])) {
 
     </div>
    </section> -->
+   <div id="container">
+     <div id="element">
+     <section id="mainsectionIDEAl">
+            <div class="container">
+                <div class="row px-5 pt-4">
+                    <div class="col-lg-2 px-9 pt-5">
+                        <button type="button" class="btn2 my-1">Post 1</button>
+                    </div>
+                    <div id="container1">
+                        <section id="mainsection1">
+                            <div class="container1">
+                                <div class="col-md-auto">
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="bg.jpg/100px180/" alt="Image">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Post Title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make
+                                                up
+                                                the
+                                                bulk of the card's content.</p>
+                                            <a href="#" class="btn btn-primary">Go</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-lg-2 px-9 pt-5">
+                        <button class="bb-add-section top" id="newpostbtn">+Add Section</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+     </div>
+        <!-- <button id="newsectionbtn">+New Section</button> -->
+    </div>
 
     <div id="container">
         <!-- <button id="newsectionbtn">+New Section</button> -->
-        <section id="mainsection">
+        <section id="mainsectionIDEAl">
             <div class="container">
                 <div class="row px-5 pt-4">
                     <div class="col-lg-2 px-9 pt-5">
@@ -283,9 +321,11 @@ if (isset($_GET['id'])) {
 </body>
 
 <script>
+    document.getElementById("element").style.display = "none";
+    
     document.getElementById("newsectionbtn").onclick = function () {
         var container = document.getElementById("container");
-        var section = document.getElementById("mainsection");
+        var section = document.getElementById("mainsectionIDEAl");
         container.appendChild(section.cloneNode(true));
     }
     </script>
