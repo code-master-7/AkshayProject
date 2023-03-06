@@ -16,9 +16,16 @@ if(isset($_POST["submit"])){
         if(in_array($fileType, $allowTypes)){ 
             $image = $_FILES['image']['tmp_name']; 
             $imgContent = addslashes(file_get_contents($image)); 
+
+            echo $image;
+            echo "<br>";
+            echo $fileName;
+            echo "<br>";
+            echo $fileType;
+            echo "<br>";
          
             // Insert image content into database 
-            $insert = $db->query("INSERT into images (image_id,image_url,image_des) VALUES (,$imgContent, NOW())"); 
+            $insert = $con_server->query("INSERT into images (image_id,image_url,image_des) VALUES (1,'$imgContent', 'Adding test')"); 
              
             if($insert){ 
                 $status = 'success'; 
