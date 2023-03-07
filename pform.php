@@ -8,7 +8,7 @@ include "enc.php";
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $id = encryptor('decrypt', $id);
-    // echo $id;
+    echo $id;
 }
 
 ?>
@@ -156,48 +156,95 @@ if (isset($_GET['id'])) {
 
                 <div class="col-lg-7 px-5 pt-5">
                     <h1 class="font-weight-bold py-3">Information of Client</h1>
-                    <form>
+                    <form method="post" action="addclient.php">
                         <div class="form-row">
                             <div class="col-lg-7">
-                                Clinet Name:<input type="text" placeholder="Client-Name" class="form-control my-1">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                                Email: <input type="email" placeholder="Email-Address" class="form-control my-1">
+                                Clinet Name:<input type="text" name="cName" placeholder="Client-Name"
+                                    class="form-control my-1">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                Number: <input type="number" placeholder="Enter Number" class="form-control my-1">
+                                Email: <input type="email" name="cemail" placeholder="Email-Address"
+                                    class="form-control my-1">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                Company: <input type="text" placeholder="Company" class="form-control my-1">
+                                Number: <input type="number" name="cnumber" placeholder="Enter Number"
+                                    class="form-control my-1">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                Project: <input type="text" placeholder="Project" class="form-control my-1">
+                                Company: <input type="text" name="cCompany" placeholder="Company"
+                                    class="form-control my-1">
                             </div>
                         </div>
-                        <div>
-
-                        </div>
-                        <!-- <div class="form-row">
+                        <div class="form-row">
                             <div class="col-lg-7">
-                                <button type="button" class="btn1 my-1">OK</button>
+                                Project: <input type="text" name="cProject" placeholder="Project"
+                                    class="form-control my-1">
                             </div>
-                        </div> -->
-
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="submit" class="btn btn-success" value="Save user data">
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-lg-7">
-                </div>
+                <!-- <div class="col-lg-7">
+                </div> -->
             </div>
+        </div>
     </section>
+
     <div id="container">
         <div id="element">
+            <form method="POST" action="">
+                <section id="mainsectionIDEAl">
+                    <div class="container">
+                        <div class="row px-5 pt-4">
+                            <div class="col-lg-2 px-9 pt-9">
+                                <input type="text" style="width: 100%" class="btn2 my-1" placeholder="Enter Post Name">
+                                <!-- <button type="tex" class="btn2 my-1">Post 1</button> -->
+                            </div>
+                            <!-- <div id="container11"> -->
+                            <section id="mainsection1">
+                                <div class="container11">
+                                    <div class="col-md-auto">
+                                        <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="images/bg.jpg" alt="Image">
+                                            <div class="card-body">
+                                                <!-- <h5 class="card-title">Post Title</h5> -->
+                                                <p class="card-text"><textarea
+                                                        style="height: 100% weidth: 100%"></textarea>
+                                                </p>
+                                                <!-- <a href="#" class="btn btn-primary">Go</a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- </div> -->
+
+                            <div class="col-lg-2 px-9 pt-5 abc">
+                                <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button>
+                                <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </form>
+        </div>
+        <!-- <button id="newsectionbtn">+New Section</button> -->
+    </div>
+
+    <div id="container">
+        <!-- <div id="element"> -->
+        <form method="POST" action="">
+
             <section id="mainsectionIDEAl">
                 <div class="container">
                     <div class="row px-5 pt-4">
@@ -223,18 +270,20 @@ if (isset($_GET['id'])) {
                                 </div>
                             </div>
                         </section>
-                        <!-- </div> -->
-
                         <div class="col-lg-2 px-9 pt-5 abc">
-                            <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button>
+                            <input type="submit" value="Save Post" class="btn btn-success">
                         </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <!-- <button id="newsectionbtn">+New Section</button> -->
-    </div>
+        </form>
 
+        <div class="col-lg-2 px-9 pt-5">
+            <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button>
+        </div>
+
+    </div>
+    </div>
+    </section>
+
+<<<<<<< HEAD
     <div id="container">
         <!-- <div id="element"> -->
         <section id="mainsectionIDEAl">
@@ -270,6 +319,10 @@ if (isset($_GET['id'])) {
         </section>
         <!-- </div> -->
         <!-- <button id="newsectionbtn">+New Section</button> -->
+=======
+    <!-- </div> -->
+    <!-- <button id="newsectionbtn">+New Section</button> -->
+>>>>>>> 5e95fa6d39fe5b68cc077140a58785d51ab4caca
     </div>
 
     <div class="abc">
@@ -279,22 +332,14 @@ if (isset($_GET['id'])) {
     </div>
 
     </div>
-    <input type="Submit" class="btn btn-success" value="Save">
+
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+
+        <input type="file" name="my_image">
+
+        <input type="submit" name="submit" value="Upload">
+
     </form>
-
-
-     <form action="upload.php"
-           method="post"
-           enctype="multipart/form-data">
-
-           <input type="file" 
-                  name="my_image">
-
-           <input type="submit" 
-                  name="submit"
-                  value="Upload">
-     	
-     </form>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -316,6 +361,7 @@ if (isset($_GET['id'])) {
         container.appendChild(section.cloneNode(true));
     }
     document.getElementById("newpostbtn1").onclick = function () {
+        alert("Hello");
         var container = document.getElementById("container11");
         var section = document.getElementById("mainsection1");
         container.appendChild(section.cloneNode(true));

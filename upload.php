@@ -12,7 +12,7 @@ if (isset($_POST['submit']) && isset($_FILES['my_image'])) {
 	$error = $_FILES['my_image']['error'];
 
 	if ($error === 0) {
-		if ($img_size > 125000) {
+		if ($img_size > 1250000) {
 			$em = "Sorry, your file is too large.";
 		    header("Location: index.php?error=$em");
 		}else {
@@ -28,7 +28,7 @@ if (isset($_POST['submit']) && isset($_FILES['my_image'])) {
 
 				// Insert into Database
 				$sql = "INSERT INTO images 
-				        VALUES(2,'$new_img_name','descryption of image')";
+				        VALUES(0,'$new_img_name','descryption of image')";
 				mysqli_query($con_server, $sql);
 				header("Location: view.php");
 			}else {
