@@ -12,7 +12,6 @@ if (isset($_GET['id'])) {
 }
 
 ?>
-
 <!doctype html>
 <html lang="en">
 
@@ -24,9 +23,11 @@ if (isset($_GET['id'])) {
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <style>
         * {
             padding: 0;
@@ -44,11 +45,25 @@ if (isset($_GET['id'])) {
             margin-top: 2rem;
         }
 
+        .row2 {
+
+            border-radius: 30px;
+            margin-top: 2cm;
+            margin-left: 12cm;
+        }
+
+        .row3 {
+
+            border-radius: 30px;
+            margin-left: 35%;
+            margin-bottom: 2cm;
+        }
+
         .btn1 {
             border: none;
             outline: none;
             height: 50px;
-            width: 100%;
+            width: 5cm;
             background-color: black;
             color: aliceblue;
             border-radius: 4px;
@@ -59,17 +74,21 @@ if (isset($_GET['id'])) {
             border: none;
             outline: none;
             height: 50px;
-            width: 100px;
+            width: 5cm;
             background-color: black;
             color: aliceblue;
             border-radius: 4px;
             font-weight: bold;
             text-align: center;
+            margin-left: 5cm;
 
         }
 
         .btn {
-            margin-left: 80px;
+            margin-left: 30px;
+            border-radius: 1rem;
+            width: 4cm;
+            height: 1cm;
         }
 
         .container {
@@ -131,13 +150,44 @@ if (isset($_GET['id'])) {
             z-index: 1000;
         }
 
-        .abc {
+        .d2 {
             width: 100%;
             height: 100%;
             contain: layout;
         }
+
+        .the {
+            width: 20%;
+            height: 50%;
+            contain: layout;
+            border-radius: 3rem;
+            background: #ddfaef;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-transform: capitalize;
+            font-style: bold;
+        }
+
+        .ab {
+            width: 30%;
+            height: 50%;
+            contain: layout;
+            background: #ddfaef;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-transform: capitalize;
+            font-style: bold;
+        }
+
+        .btn0 {
+            width: 4cm;
+            height: 1cm;
+            border-radius: 1rem;
+            margin-inline-end: 150px;
+            margin-right: 200px;
+        }
     </style>
+
     <title>Form</title>
+
 </head>
 
 <body>
@@ -153,207 +203,107 @@ if (isset($_GET['id'])) {
     <section class="form">
         <div class="container">
             <div class="row no-gutters">
-                <div class="col-lg-4">
-                </div>
+                <div class="col-lg-4"> </div>
 
                 <div class="col-lg-7 px-5 pt-5">
                     <h1 class="font-weight-bold py-3">Information of Client</h1>
-                    <form method="post" action="addclient.php">
+                    <form action="addclient.php" method="POST">
+
                         <div class="form-row">
                             <div class="col-lg-7">
-                                Clinet Name:<input type="text" name="cName" placeholder="Client-Name"
-                                    class="form-control my-1">
+                                Clinet Name:<input type="text" 
+                                name = "cName"
+                                placeholder="Client-Name" class="form-control my-1">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                Email: <input type="email" name="cemail" placeholder="Email-Address"
-                                    class="form-control my-1">
+                                Email: <input type="email" 
+                                name = "cemail"
+                                placeholder="Email-Address" class="form-control my-1">
                             </div>
                         </div>
+
                         <div class="form-row">
                             <div class="col-lg-7">
-                                Number: <input type="number" name="cnumber" placeholder="Enter Number"
-                                    class="form-control my-1">
+                                Number: <input type="number" 
+                                name = "cnumber"
+                                placeholder="Enter Number" class="form-control my-1">
                             </div>
                         </div>
+
                         <div class="form-row">
                             <div class="col-lg-7">
-                                Company: <input type="text" name="cCompany" placeholder="Company"
-                                    class="form-control my-1">
+                                Company: <input type="text" 
+                                name = "cCompany"
+                                placeholder="Company" class="form-control my-1">
                             </div>
                         </div>
+
                         <div class="form-row">
                             <div class="col-lg-7">
-                                Project: <input type="text" name="cProject" placeholder="Project"
-                                    class="form-control my-1">
+                                Project: <input type="text" 
+                                name = "cProject"
+                                placeholder="Project" class="form-control my-1">
                             </div>
                         </div>
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                                <input type="submit" class="btn btn-success" value="Save user data">
+
+                        <div class="bcd">
+                            <div class="row2">
+                                <input type="hidden" name = "project_id" value="<?php echo $id; ?>">
+                                <input type="Submit" class="btn0 btn-success" value="Save">
                             </div>
                         </div>
                     </form>
                 </div>
-                <!-- <div class="col-lg-7">
-                </div> -->
+
+                <div class="col-lg-7"></div>
+
             </div>
         </div>
     </section>
-
-    <div id="container">
-        <div id="element">
-            <form method="POST" action="">
-                <section id="mainsectionIDEAl">
-                    <div class="container">
-                        <div class="row px-5 pt-4">
-                            <div class="col-lg-2 px-9 pt-9">
-                                <input type="text" style="width: 100%" class="btn2 my-1" placeholder="Enter Post Name">
-                                <!-- <button type="tex" class="btn2 my-1">Post 1</button> -->
-                            </div>
-                            <!-- <div id="container11"> -->
-                            <section id="mainsection1">
-                                <div class="container11">
-                                    <div class="col-md-auto">
-                                        <div class="card" style="width: 18rem;">
-                                            <img class="card-img-top" src="images/bg.jpg" alt="Image">
-                                            <div class="card-body">
-                                                <!-- <h5 class="card-title">Post Title</h5> -->
-                                                <p class="card-text"><textarea
-                                                        style="height: 100% weidth: 100%"></textarea>
-                                                </p>
-                                                <!-- <a href="#" class="btn btn-primary">Go</a> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- </div> -->
-            </form>
-            <div class="col-lg-2 px-9 pt-5 abc">
-                <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button>
-                <!-- <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button> -->
+    <section>
+        <div class="add">
+            <div class="row2" style="margin-bottom: 2cm;">
+                <input type="Submit" class="btn1 btn-success" value="List">
+                <input type="Submit" class="btn2 btn-success" value="My Post">
             </div>
         </div>
-    </div>
+
+
     </section>
-
-    </div>
-    <!-- <button id="newsectionbtn">+New Section</button> -->
-    </div>
-
-    <div id="container">
-        <!-- <div id="element"> -->
-        <form method="POST" action="">
-
-            <section id="mainsectionIDEAl">
-                <div class="container">
-                    <div class="row px-5 pt-4">
-                        <div class="col-lg-2 px-9 pt-9">
-                            <input type="text" class="btn2 my-1" placeholder=" Post Name">
-                            <!-- <button type="tex" class="btn2 my-1">Post 1</button> -->
-                        </div>
-                        <!-- <div id="container11"> -->
-                        <section id="mainsection1">
-                            <div class="container11">
-                                <div class="col-md-auto">
-                                    <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src="images/bg.jpg" alt="Image">
-                                        <div class="card-body">
-                                            <!-- <h5 class="card-title">Post Title</h5> -->
-                                            <p class="card-text">
-                                                <textarea class="abc my-2"></textarea>
-
-                                            </p>
-                                            <!-- <a href="#" class= "btn btn-primary">Go</a> -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <div class="col-lg-2 px-9 pt-5 abc">
-                            <input type="submit" value="Save Post" class="btn btn-success">
-                        </div>
-                    </div>
-            </section>
-        </form>
-
-        <div class="col-lg-2 px-9 pt-5">
-            <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button>
-        </div>
-
-
-    </div>
-
-
-    <!-- </div> -->
-    <!-- <button id="newsectionbtn">+New Section</button> -->
-    </div>
-
-    <div class="abc">
-        <!--<div class="col-lg-2 px-9 pt-5">-->
-        <button class="bb top" id="newsectionbtn">+ Add Post</button>
-    </div>
-    </div>
-
-    </div>
-
-    <form action="upload.php" method="post" enctype="multipart/form-data">
-
-        <input type="file" name="my_image">
-
-        <input type="submit" name="submit" value="Upload">
-
-    </form>
-
-
-
-
-    <script>
-
-        var v;
-        $('#add').click(function () {
-            v++;
-            //var table = $(this).closest('tttt');
-            var table = $("#element");
-            if (table.find('input:text').length < 70) {
-                table.append('hello');
-            }
-        });
-
-        // document.getElementById("element").style.display = "none";
-
-        document.getElementById("newsectionbtn").onclick = function () {
-            var container = document.getElementById("container");
-            var section = document.getElementById("mainsectionIDEAl");
-            container.appendChild(section.cloneNode(true));
-        }
-        document.getElementById("newsectionbtn1").onclick = function () {
-            alert("Hello");
-            var container = document.getElementById("container11");
-            var section = document.getElementById("mainsection1");
-            container.appendChild(section.cloneNode(true));
-        }
-    </script>
-
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
 </body>
 
+<script>
+    document.getElementById("element").style.display = "none";
 
+    document.getElementById("newsectionbtn").onclick = function () {
+        var container = document.getElementById("container");
+        var section = document.getElementById("mainsectionIDEAl");
+        container.appendChild(section.cloneNode(true));
+    }
+    document.getElementById("newpostbtn1").onclick = function () {
+        var container = document.getElementById("container11");
+        var section = document.getElementById("mainsection1");
+        container.appendChild(section.cloneNode(true));
+    }
+</script>
 
 </html>
+
 
 <?php
 ?>

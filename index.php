@@ -129,70 +129,31 @@ include "enc.php";
                     <table class="table bg-white rounded shadow-sm table-hover">
                         <thead>
                             <tr>
-                                <th scope="col" width="50"> </th>
-                                <th scope="col">Client</th>
-                                <th scope="col">Company</th>
-                                <th scope="col">Project</th>
+                                
+                                <th>Client</th>
+                                <th>Company</th>
+                                <th>Project</th>
                             </tr>
                         </thead>
                         <tbody>
+                        <?php
+                        $query3 = "select * from client";
+
+                        $sql = mysqli_query($con_server, $query3);
+                        while ($ans = mysqli_fetch_assoc($sql)) {
+?>
                             <tr>
-                                <th scope="row">1</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                
+                                <td><?php echo $ans['name']; ?></td>
+                                <td><?php echo $ans['company']; ?></td>
+                                <td><?php echo $ans['project_id'] ;?></td>
+                                <td><a href="demo.php?id=<?php $id = encryptor('encrypt', $ans['project_id'] );
+                            echo $id;?>" class ="btn bt-seccuess">Edit</a></td>
+                                
                             </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">4</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">5</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">6</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">7</th>
-                                <td></td>
-                            <tr>
-                                <th scope="row">8</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">9</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">10</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
+<?php
+                        }
+                        ?>
                         </tbody>
                     </table>
                 </div>
