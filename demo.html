@@ -1,0 +1,49 @@
+
+<table border="0" cellspacing="2">
+    <tr>
+        <td style="width:200px;" align="right">Name
+            <td>
+                <input type="text" id="current Name" value="" />
+            </td>
+        </td>
+    </tr>
+    <tr>
+        <td align="right">Test value</td>
+        <td>
+            <select id="test" style="width:350px;"></select>
+        </td>
+    </tr>
+    <tr>
+        <td align="right">datas</td>
+        <td>
+            <input type="button" id="add" value="Add" />
+            <input type="button" id="del" value="Del" />
+        </td>
+    </tr>
+    <tr>
+        <td style="height:3px" colspan="2"></td>
+    </tr>
+</table>
+<div id="tttt">
+
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script>
+    var i = 0,j=0;
+    $('#add').click(function () {    
+    var table = $(this).closest('table');
+    i++;    
+            table.append('<tr><td style="width:200px;" align="right">Name <td> <input type="text" id="current Name" value="" /> </td><td id="newsection'+j+'"></td><td><button id="btnsec'+i+'">Section</button></td></tr>');
+        $("#btnsec"+i).click(function () {
+            $("#newsection"+j).append("hiii<br>")
+        })
+        
+});
+
+$('#del').click(function () {
+    var table = $(this).closest('table');
+    if (table.find('input:text').length > 1) {
+        table.find('input:text').last().closest('tr').remove();
+    }
+});
+</script>
