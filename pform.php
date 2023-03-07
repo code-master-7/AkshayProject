@@ -54,17 +54,18 @@ if (isset($_GET['id'])) {
             border-radius: 4px;
             font-weight: bold;
         }
-            .btn2{
+
+        .btn2 {
             border: none;
             outline: none;
             height: 50px;
             width: 100px;
-            background-color:black;
+            background-color: black;
             color: aliceblue;
             border-radius: 4px;
             font-weight: bold;
             text-align: center;
-        
+
         }
 
         .btn {
@@ -129,11 +130,12 @@ if (isset($_GET['id'])) {
             transform: translatex(-50%);
             z-index: 1000;
         }
-        .abc{
-    width: 100%;
-    height: 100%;
-    contain: layout;
-}
+
+        .abc {
+            width: 100%;
+            height: 100%;
+            contain: layout;
+        }
     </style>
     <title>Form</title>
 </head>
@@ -228,17 +230,17 @@ if (isset($_GET['id'])) {
                                 </div>
                             </section>
                             <!-- </div> -->
-
-                            <div class="col-lg-2 px-9 pt-5 abc">
-                                <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button>
-                                <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button>
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </form>
+            <div class="col-lg-2 px-9 pt-5 abc">
+                <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button>
+                <!-- <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button> -->
+            </div>
         </div>
-        <!-- <button id="newsectionbtn">+New Section</button> -->
+    </div>
+    </section>
+
+    </div>
+    <!-- <button id="newsectionbtn">+New Section</button> -->
     </div>
 
     <div id="container">
@@ -249,7 +251,7 @@ if (isset($_GET['id'])) {
                 <div class="container">
                     <div class="row px-5 pt-4">
                         <div class="col-lg-2 px-9 pt-9">
-                            <input type="text"  class="btn2 my-1" placeholder=" Post Name">
+                            <input type="text" class="btn2 my-1" placeholder=" Post Name">
                             <!-- <button type="tex" class="btn2 my-1">Post 1</button> -->
                         </div>
                         <!-- <div id="container11"> -->
@@ -261,10 +263,10 @@ if (isset($_GET['id'])) {
                                         <div class="card-body">
                                             <!-- <h5 class="card-title">Post Title</h5> -->
                                             <p class="card-text">
-                                                <textarea class="abc my-2"  ></textarea>
-                                          
+                                                <textarea class="abc my-2"></textarea>
+
                                             </p>
-                                            <!-- <a href="#" class="btn btn-primary">Go</a> -->
+                                            <!-- <a href="#" class= "btn btn-primary">Go</a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -273,56 +275,20 @@ if (isset($_GET['id'])) {
                         <div class="col-lg-2 px-9 pt-5 abc">
                             <input type="submit" value="Save Post" class="btn btn-success">
                         </div>
+                    </div>
+            </section>
         </form>
 
         <div class="col-lg-2 px-9 pt-5">
             <button class="bb-add-section top" id="newsectionbtn1">+ Add Section</button>
         </div>
 
-    </div>
-    </div>
-    </section>
 
-<<<<<<< HEAD
-    <div id="container">
-        <!-- <div id="element"> -->
-        <section id="mainsectionIDEAl">
-            <div class="container">
-                <div class="row px-5 pt-4">
-                    <div class="col-lg-2 px-9 pt-9">
-                        <input type="text" style="width: 100%" class="btn2 my-1" placeholder="Post Name">
-                        <!-- <button type="tex" class="btn2 my-1">Post 1</button> -->
-                    </div>
-                    <div id="container11">
-                        <section id="mainsection1">
-                            <div class="container11">
-                                <div class="col-md-auto">
-                                    <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src="images/bg.jpg" alt="Image">
-                                        <div class="card-body">
-                                            <!-- <h5 class="card-title">Post Title</h5> -->
-                                            <p class="card-text"><textarea style="height: 100% weidth: 100%"></textarea>
-                                            </p>
-                                            <!-- <a href="#" class="btn btn-primary">Go</a> -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
+    </div>
 
-                    <div class="col-lg-2 px-9 pt-5 abc">
-                        <button class="bb-add-section top" id="newpostbtn1">+ Add Image</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- </div> -->
-        <!-- <button id="newsectionbtn">+New Section</button> -->
-=======
+
     <!-- </div> -->
     <!-- <button id="newsectionbtn">+New Section</button> -->
->>>>>>> 5e95fa6d39fe5b68cc077140a58785d51ab4caca
     </div>
 
     <div class="abc">
@@ -340,6 +306,39 @@ if (isset($_GET['id'])) {
         <input type="submit" name="submit" value="Upload">
 
     </form>
+
+
+
+
+    <script>
+
+        var v;
+        $('#add').click(function () {
+            v++;
+            //var table = $(this).closest('tttt');
+            var table = $("#element");
+            if (table.find('input:text').length < 70) {
+                table.append('hello');
+            }
+        });
+
+        // document.getElementById("element").style.display = "none";
+
+        document.getElementById("newsectionbtn").onclick = function () {
+            var container = document.getElementById("container");
+            var section = document.getElementById("mainsectionIDEAl");
+            container.appendChild(section.cloneNode(true));
+        }
+        document.getElementById("newsectionbtn1").onclick = function () {
+            alert("Hello");
+            var container = document.getElementById("container11");
+            var section = document.getElementById("mainsection1");
+            container.appendChild(section.cloneNode(true));
+        }
+    </script>
+
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -352,21 +351,7 @@ if (isset($_GET['id'])) {
 
 </body>
 
-<script>
-    document.getElementById("element").style.display = "none";
 
-    document.getElementById("newsectionbtn").onclick = function () {
-        var container = document.getElementById("container");
-        var section = document.getElementById("mainsectionIDEAl");
-        container.appendChild(section.cloneNode(true));
-    }
-    document.getElementById("newpostbtn1").onclick = function () {
-        alert("Hello");
-        var container = document.getElementById("container11");
-        var section = document.getElementById("mainsection1");
-        container.appendChild(section.cloneNode(true));
-    }
-</script>
 
 </html>
 
