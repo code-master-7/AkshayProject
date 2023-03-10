@@ -8,28 +8,28 @@ if (isset($_GET['id'])) {
     $id = encryptor('decrypt', $id);
     // echo $id;
 
-    $email ="";
+    $email = "";
     $get_email = "select email from client where project_id = '$id';";
 
-    $query_getEmail = mysqli_query($con_server,$get_email);
+    $query_getEmail = mysqli_query($con_server, $get_email);
 
-    while($getEmail = mysqli_fetch_assoc($query_getEmail)){
+    while ($getEmail = mysqli_fetch_assoc($query_getEmail)) {
         $email = $getEmail['email'];
     }
 
     $pID = $_GET['head'];
 
     //  $ans['post_id'];
-     
-     $postTitle = "select postTitle from post where post_id = '$pID' ";
 
-     $c1 = mysqli_query($con_server,$postTitle);
-     $title = "";
- 
-     while($ans1 = mysqli_fetch_assoc($c1)){
-         $title = $ans1 ['postTitle'];
-         
-     }
+    $postTitle = "select postTitle from post where post_id = '$pID' ";
+
+    $c1 = mysqli_query($con_server, $postTitle);
+    $title = "";
+
+    while ($ans1 = mysqli_fetch_assoc($c1)) {
+        $title = $ans1['postTitle'];
+
+    }
 
     ?>
 
@@ -52,7 +52,6 @@ if (isset($_GET['id'])) {
 
     <body>
         <div class="d-flex" id="wrapper">
-
             <div id="page-content-wrapper">
                 <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
                     <div class="d-flex align-items-center">
@@ -86,6 +85,7 @@ if (isset($_GET['id'])) {
                         </form>
 
                     </h3>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
                     <?php
                     // $q = "Select * from images where post_id = 4 and project_id = 1";
                 
@@ -98,35 +98,24 @@ if (isset($_GET['id'])) {
                     while ($ans = mysqli_fetch_assoc($sql)) {
 
                         ?>
-                        <div class="col">
-                            <table border="1" class="table bg-white rounded shadow-sm table-hover" style="width: 100%">
-                                <thead>
-                                    <tr>
-                                        <th>Posts</th>
-                                        <th style="margin-left: 50%;">description</th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><img src="images/<?php echo $ans['image_url']; ?>" width="500" height="auto"></td>
-                                        <td>
-                                            <?php echo $ans['image_des']; ?>
-                                        </td>
-                                        <!-- TODO add edit button and on click of that edit from image Table -->
-                                        <!-- <td><?php //echo $ans['image_id']; ?></td> -->
-                                        <td><a href="update.php?id=<?php $idd = encryptor('encrypt', $id);
-                                        echo $idd; ?>&&image_id=<?php echo $ans['image_id']; ?>">Edit</a></td>
-                                    </tr>
-                                    <?php
+                        
+                            <div class="col">
+                                <div class="card">
+                                    <img src="images/<?php echo $ans['image_url']; ?>" class="img-fluid" style = "width:550px; height:500px" class="card-img-top " alt="Img">
+                                    <div class="card-body">
+                                        <p class="card-text"> <?php echo $ans['image_des']; ?></p>
+                                        <a href="update.php?id=<?php $idd = encryptor('encrypt', $id);
+                                            echo $idd; ?>&&image_id=<?php echo $ans['image_id']; ?>" class="btn btn-primary">Edit</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                                        <?php
                     }
                     ?>
-                            </tbody>
-                        </table>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
