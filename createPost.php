@@ -3,14 +3,33 @@
 include "connection.php";
 include "enc.php";
 
-
-
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $id = encryptor('decrypt', $id);
-    echo $id;
+    // echo $id;
+
+    $email ="";
+    $get_email = "select email from client where project_id = '$id';";
+
+    $query_getEmail = mysqli_query($con_server,$get_email);
+
+    while($getEmail = mysqli_fetch_assoc($query_getEmail)){
+        $email = $getEmail['email'];
+    }
 
     $pID = $_GET['head'];
+
+    //  $ans['post_id'];
+     
+     $postTitle = "select postTitle from post where post_id = '$pID' ";
+
+     $c1 = mysqli_query($con_server,$postTitle);
+     $title = "";
+ 
+     while($ans1 = mysqli_fetch_assoc($c1)){
+         $title = $ans1 ['postTitle'];
+         
+     }
 
     ?>
 
@@ -39,7 +58,7 @@ if (isset($_GET['id'])) {
                     <div class="d-flex align-items-center">
                         <i class="fas fa-align-left primary-text fs-4 me-3" id="menu-toggle"></i>
                         <h2 class="fs-2 m-0">Images of Post "
-                            <?php echo $pID ?> "
+                            <?php echo $title ?> "
                         </h2>
                     </div>
                     <div>
@@ -50,10 +69,7 @@ if (isset($_GET['id'])) {
                         </button>
                     </div>
 
-
-
                 </nav>
-
 
                 <div class="row my-5">
                     <h3 class="fs-4 mb-3">
@@ -95,9 +111,12 @@ if (isset($_GET['id'])) {
                                     <tr>
                                         <td><img src="images/<?php echo $ans['image_url']; ?>" width="500" height="auto"></td>
                                         <td>
-                                            <?php echo $ans['image_des'] ?>
+                                            <?php echo $ans['image_des']; ?>
                                         </td>
-                                        <td><input type="button" value="Edit" style=""></td>
+                                        <!-- TODO add edit button and on click of that edit from image Table -->
+                                        <!-- <td><?php //echo $ans['image_id']; ?></td> -->
+                                        <td><a href="update.php?id=<?php $idd = encryptor('encrypt', $id);
+                                        echo $idd; ?>&&image_id=<?php echo $ans['image_id']; ?>">Edit</a></td>
                                     </tr>
                                     <?php
                     }

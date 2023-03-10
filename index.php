@@ -129,31 +129,47 @@ include "enc.php";
                     <table class="table bg-white rounded shadow-sm table-hover">
                         <thead>
                             <tr>
-                                
+
                                 <th>Client</th>
                                 <th>Company</th>
                                 <th>Project</th>
                             </tr>
                         </thead>
                         <tbody>
-                        <?php
-                        $query3 = "select * from client";
+                            <?php
+                            $query3 = "select * from client";
 
-                        $sql = mysqli_query($con_server, $query3);
-                        while ($ans = mysqli_fetch_assoc($sql)) {
-?>
-                            <tr>
-                                
-                                <td><?php echo $ans['name']; ?></td>
-                                <td><?php echo $ans['company']; ?></td>
-                                <td><?php echo $ans['project_id'] ;?></td>
-                                <td><a href="demo.php?id=<?php $id = encryptor('encrypt', $ans['project_id'] );
-                            echo $id;?>" class ="btn bt-seccuess">Edit</a></td>
-                                
-                            </tr>
-<?php
-                        }
-                        ?>
+                            $sql = mysqli_query($con_server, $query3);
+                            while ($ans = mysqli_fetch_assoc($sql)) {
+                                // echo $ans['project_id'];;
+                                $projectTitle = "select projectTitle from project where project_id = '$ans[project_id];' ";
+
+                                $c1 = mysqli_query($con_server, $projectTitle);
+                                $title = "";
+
+                                while ($ans1 = mysqli_fetch_assoc($c1)) {
+                                    $title = $ans1['projectTitle'];
+
+                                }
+                                ?>
+                                <tr>
+
+                                    <td>
+                                        <?php echo $ans['name']; ?>
+                                    </td>
+                                    <td>
+                                        <?php echo $ans['company']; ?>
+                                    </td>
+                                    <td>
+                                        <?php echo $title ?>
+                                    </td>
+                                    <td><a href="demo.php?id=<?php $id = encryptor('encrypt', $ans['project_id']);
+                                    echo $id; ?>" class="btn bt-seccuess">Edit</a></td>
+
+                                </tr>
+                                <?php
+                            }
+                            ?>
                         </tbody>
                     </table>
                 </div>
@@ -174,6 +190,18 @@ include "enc.php";
             el.classList.toggle("toggled")
         }
     </script>
+    <?php
+
+    if (isset($_GET['error'])) {
+        ?>
+        <script>
+            alert("<?php echo $_GET['error']; ?>");
+        </script>
+        <?php
+    }
+
+    ?>
+
 
 
 </body>

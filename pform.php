@@ -8,7 +8,7 @@ include "enc.php";
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $id = encryptor('decrypt', $id);
-    echo $id;
+    // echo $id;
 }
 
 ?>
@@ -263,12 +263,12 @@ if (isset($_GET['id'])) {
         </div>
     </section>
     <section>
-        <div class="add">
+        <!-- <div class="add">
             <div class="row2" style="margin-bottom: 2cm;">
                 <input type="Submit" class="btn1 btn-success" value="List">
                 <input type="Submit" class="btn2 btn-success" value="My Post">
             </div>
-        </div>
+        </div> -->
 
 
     </section>

@@ -8,7 +8,7 @@ include "enc.php";
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $id = encryptor('decrypt', $id);
-    echo $id;
+    // echo $id;
 
 
     ?>
@@ -45,11 +45,93 @@ if (isset($_GET['id'])) {
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </div>
-
-
-
                 </nav>
+                <section class="form">
+                    <div class="container">
+                        <div class="row no-gutters">
+                            <div class="pt-5">
+                                <form action="addclient.php" method="POST">
+                                    <table>
+                                        <tr>
+                                            <td colspan="6">
+                                                <h1 class="font-weight-bold py-3">Information of Client</h1>
+                                            </td>
+                                        </tr>
+                                        <?php
+                                        $getClientInfo = "select * from client where project_id = '$id';";
 
+                                        $getinfo = mysqli_query($con_server, $getClientInfo);
+
+                                        while ($clientInfo = mysqli_fetch_assoc($getinfo)) {
+
+                                            $projectTitle = "select projectTitle from project where project_id = '$clientInfo[project_id];' ";
+
+                                            $c1 = mysqli_query($con_server, $projectTitle);
+                                            $title = "";
+
+                                            while ($ans1 = mysqli_fetch_assoc($c1)) {
+                                                $title = $ans1['projectTitle'];
+                                            }
+
+                                            ?>
+                                            <input type="hidden" name="Work" value="update">
+                                            <tr>
+                                                <td>
+                                                    <div class="form-row">
+                                                        Clinet Name:<input type="text" name="cName" placeholder="Client-Name"
+                                                            value="<?php echo $clientInfo['name']; ?>"
+                                                            class="form-control my-1">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="form-row">
+                                                        Email: <input type="email" name="cemail" placeholder="Email-Address"
+                                                            value="<?php echo $clientInfo['email']; ?>"
+                                                            class="form-control my-1">
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="form-row">
+                                                        Number: <input type="number" name="cnumber" placeholder="Enter Number"
+                                                            value="<?php echo $clientInfo['number']; ?>"
+                                                            class="form-control my-1">
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="form-row">
+                                                        Company: <input type="text" name="cCompany"
+                                                            value="<?php echo $clientInfo['company']; ?>" placeholder="Company"
+                                                            class="form-control my-1">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="form-row">
+                                                        Project: <input type="text" name="cProject"
+                                                            value="<?php echo $title; ?>" placeholder="Project"
+                                                            class="form-control my-1">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="form-row">
+                                                        <input type="hidden" name="project_id" value="<?php echo $id; ?>">
+                                                        <input type="Submit" class="btn0 btn-success" value="Update">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <?php
+                                        }
+                                        ?>
+                                    </table>
+                                </form>
+                            </div>
+
+                            <div class="col-lg-7"></div>
+
+                        </div>
+                    </div>
+                </section>
 
                 <div class="row my-5">
                     <h3 class="fs-4 mb-3">
@@ -83,14 +165,28 @@ if (isset($_GET['id'])) {
 
                                 while ($ans = mysqli_fetch_assoc($queryy)) {
 
+                                    $postTitle = "select postTitle from post where post_id = ' $ans[post_id]' ";
+
+                                    $c1 = mysqli_query($con_server, $postTitle);
+                                    $title = "";
+
+                                    while ($ans1 = mysqli_fetch_assoc($c1)) {
+                                        $title = $ans1['postTitle'];
+
+                                    }
+
+
                                     ?>
                                     <tr>
-                                        <th><?php echo $ans ['post_id'] ?></th>
+                                        <th>
+                                            <?php echo $title; ?>
+                                        </th>
                                         <td><a href="createPost.php?id=<?php $idd = encryptor('encrypt', $id);
-                            echo $idd;?>&&head=<?php echo $ans['post_id']; ?>" class ="btn bt-seccuess">Edit</a></td>
+                                        echo $idd; ?>&&head=<?php echo $ans['post_id']; ?>"
+                                                class="btn bt-seccuess">Edit</a></td>
                                     </tr>
                                     <?php
-                                    
+
                                 }
                                 ?>
                             </tbody>
