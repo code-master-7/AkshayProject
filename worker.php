@@ -40,7 +40,7 @@ if (isset($_GET['id']) && isset($_GET['work']) ) {
                 }
             }
 
-            $q = "Insert into post values('$get_post_id','$titlee')";
+            $q = "Insert into post values('$get_post_id','$titlee','$id')";
 
             $check = mysqli_query($con_server, $q);
 
@@ -48,7 +48,7 @@ if (isset($_GET['id']) && isset($_GET['work']) ) {
                 echo "Party";
 
                 $pass = encryptor('encrypt', $id);
-                header("location: createPost.php?id=$pass&&head=$get_post_id");
+                header("location: demo.php?id=$pass");
             }
 
             break;

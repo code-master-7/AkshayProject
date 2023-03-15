@@ -18,7 +18,8 @@ $sql1 = 'CREATE TABLE IF NOT EXISTS`project` (
 
 $sql2 = 'CREATE TABLE IF NOT EXISTS `post` (
   `post_id` int(11) NOT NULL,
-  `postTitle` varchar(100) NOT NULL
+  `postTitle` varchar(100) NOT NULL,
+  `project_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;';
 
 $sql3 = 'CREATE TABLE IF NOT EXISTS `images` (

@@ -86,33 +86,34 @@ if (isset($_GET['id'])) {
 
                     </h3>
                     <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <?php
-                    // $q = "Select * from images where post_id = 4 and project_id = 1";
-                
-                    $id = $_GET['id'];
-                    $id = encryptor('decrypt', $id);
-                    echo $id;
-                    $que = "Select * from images where post_id = '$pID' and project_id = '$id'";
-
-                    $sql = mysqli_query($con_server, $que);
-                    while ($ans = mysqli_fetch_assoc($sql)) {
-
-                        ?>
-                        
-                            <div class="col">
+                        <?php
+                        // $q = "Select * from images where post_id = 4 and project_id = 1";
+                    
+                        $id = $_GET['id'];
+                        $id = encryptor('decrypt', $id);
+                        $que = "Select * from images where post_id = '$pID' and project_id = '$id'";
+                        $sql = mysqli_query($con_server, $que);
+                        while ($ans = mysqli_fetch_assoc($sql)) {
+                            ?>
+                            <div class="col-3">
                                 <div class="card">
-                                    <img src="images/<?php echo $ans['image_url']; ?>" class="img-fluid" style = "width:550px; height:500px" class="card-img-top " alt="Img">
+                                    <img src="images/<?php echo $ans['image_url']; ?>" class="img-fluid"
+                                        style="width:350px; height:350px" class="card-img-top " alt="Img">
                                     <div class="card-body">
-                                        <p class="card-text"> <?php echo $ans['image_des']; ?></p>
+                                        <div class="overflow-scroll" style="height:150px; width:100%">
+                                            <?php echo $ans['image_des']; ?>
+                                        </div>
+
                                         <a href="update.php?id=<?php $idd = encryptor('encrypt', $id);
-                                            echo $idd; ?>&&image_id=<?php echo $ans['image_id']; ?>" class="btn btn-primary">Edit</a>
+                                        echo $idd; ?>&&image_id=<?php echo $ans['image_id']; ?>"
+                                            class="btn btn-primary">Edit</a>
                                     </div>
                                 </div>
                             </div>
 
-                                        <?php
-                    }
-                    ?>
+                            <?php
+                        }
+                        ?>
                     </div>
                 </div>
             </div>
