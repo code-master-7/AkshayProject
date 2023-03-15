@@ -6,7 +6,7 @@
         <a class="text-dark" href="">Vishwa Bhalodiya </a> &
         <a class="text-dark" href="https://www.linkedin.com/in/mohil-bhadja-97b026203">Mohil Bhadja </a>
         <?php
-        $e = time() + 60;
+        $e = time() + 3600;
         if (!isset($_COOKIE['user'])) {
             setcookie('user', "user_Data", $e);
         }

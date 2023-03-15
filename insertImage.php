@@ -3,14 +3,10 @@
 include "connection.php";
 include "enc.php";
 
-
-
-if (isset($_GET['id'])) {
+if (isset($_GET['id']) && isset($_COOKIE['user'])) {
     $id = $_GET['id'];
     $id = encryptor('decrypt', $id);
     echo $id;
-
-
 
     ?>
     <form action="upload.php" method="post" enctype="multipart/form-data">
@@ -21,5 +17,12 @@ if (isset($_GET['id'])) {
 
     </form>
     <?php
+}else{
+    if(!isset($_COOKIE['user'])){
+        echo "Please Include Copyrights and Refresh 😁😁";
+        include 'footer.php';
+    }else{
+        echo "Invalid Request";
+    }
 }
 ?>
