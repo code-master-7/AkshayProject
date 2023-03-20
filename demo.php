@@ -7,6 +7,7 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
     ?>
     <!DOCTYPE html>
     <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,22 +26,22 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
 
             <div id="page-content-wrapper">
                 <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
-                    <div class="d-flex align-items-center">
+                    <!-- <div class="d-flex align-items-center">
                         <i class="fas fa-align-left primary-text fs-4 me-3" id="menu-toggle"></i>
                         <h2 class="fs-2 m-0">List Of Post</h2>
-                    </div>
-                    <div style="margin: 0 0 0 35%">
+                    </div> -->
+                    <div style="margin: 0 0 0 50%">
                         <img src="images\LOGO-.png" height="75" width="75">
                     </div>
                 </nav>
                 <section class="form" style="margin: 10px">
                     <form action="addclient.php" method="POST">
                         <table style="width: 100%">
-                            <tr>
+                            <!-- <tr>
                                 <td colspan="6">
                                     <h1 class="font-weight-bold py-3">Information of Client</h1>
                                 </td>
-                            </tr>
+                            </tr> -->
                             <?php
                             $getClientInfo = "select * from client where project_id = '$id';";
 
@@ -62,7 +63,7 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                 <tr>
                                     <td>
                                         <div class="form-row">
-                                            Clinet Name:<input type="text" name="cName" placeholder="Client-Name"
+                                            client Name:<input type="text" name="cName" placeholder="Client-Name"
                                                 value="<?php echo $clientInfo['name']; ?>" class="form-control my-1">
                                         </div>
                                     </td>
@@ -93,11 +94,10 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                                 placeholder="Project" class="form-control my-1">
                                         </div>
                                     </td>
-                                    <td>
-                                        <div class="form-row">
-                                            <input type="hidden" name="project_id" value="<?php echo $id; ?>">
-                                            <input type="Submit" class="btn0 btn-success" value="Update">
-                                        </div>
+                                    <td style="padding-top:25px">
+                                        <input type="hidden" name="project_id" value="<?php echo $id; ?>">
+                                        <input type="Submit" class="btn0 btn-success" value="Update">
+
                                     </td>
                                 </tr>
                                 <?php
@@ -113,8 +113,18 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                             <input type="hidden" name="work" value="Cpost">
                             <input type="hidden" name="id" value="<?php $id = encryptor('encrypt', $id);
                             echo $id; ?>">
-                            <input type="text" name="head" placeholder="Enter Post Title" required>
-                            <input type="submit" class="btn btn-success" value="Create Post">
+                            <table>
+                                <tr>
+                                    <td><input type="text" name="head" placeholder="Enter Title" required>
+                                    </td>
+                                    <td><input type="submit" class="btn btn-success" value="Create">
+                                    </td>
+                                </tr>
+                            </table>
+
+
+
+
                         </form>
                     </h3>
 
@@ -122,7 +132,7 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                         <?php
 
                         $id = encryptor('decrypt', $id);
-                    
+
                         $postTitle = "select * from post where project_id = '$id' ";
 
                         $c1 = mysqli_query($con_server, $postTitle);
@@ -151,11 +161,28 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                                     <input type="hidden" name="pID" value="<?php echo $ans1['post_id'] ?>">
                                                     <input type="hidden" name="id" value="<?php $idd = encryptor('encrypt', $id);
                                                     echo $idd; ?>">
-                                                    <input type="file" name="my_image" required>
-                                                    <textarea class="mx-1 my-1" name="imgDes" required> </textarea>
-                                                    <input type="submit" class="btn btn-success " name="submit"
-                                                        value="Insert Data">
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <div>
+                                                                    <input type="file" name="my_image" required>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div>
+                                                                    <textarea class="mx-1 my-1" name="imgDes"
+                                                                        required> </textarea>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div>
+                                                                    <input type="submit" class="btn btn-success " name="submit"
+                                                                        value="Insert Data">
+                                                                </div>
+                                                            </td>
+                                                        </tr>
 
+                                                    </table>
                                                 </form>
                                             </div>
 
@@ -170,8 +197,16 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                                             <?php
                                                             if ($ans['typ'] == 0) {
                                                                 ?>
-                                                                <img src="images/<?php echo $ans['image_url']; ?>" class="img-fluid"
-                                                                    style="width:350px; height:350px" class="card-img-top " alt="Img">
+                                                                <div style="position: relative;">
+                                                                    <img src="images/<?php echo $ans['image_url']; ?>" class="img-fluid"
+                                                                        style="width:auto; height:auto;pointer-events: none;" class="card-img-top " alt="Img">
+                                                                    <a href="images/<?php echo $ans['image_url']; ?>" target="_blank">
+                                                                        <div style="position: absolute; top: 0px;
+   left: 0px; opacity:1; height: 100%; width:100%; margin:0 0 auto 0 opacity: 1 color:white">© copywrite
+                                                                        </div>
+                                                                    </a>
+                                                                </div>
+
                                                                 <?php
                                                             } else {
                                                                 ?>
@@ -240,10 +275,16 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                     <input type="hidden" name="image_id" value="<?php echo $image_id; ?>">
                                     <input type="hidden" name="id" value="<?php $idd = encryptor('encrypt', $project_id);
                                     echo $idd; ?>">
-                                    <input type="file" name="my_image" value="<?php echo $Details['image_url']; ?>">
-                                    <textarea name="imgDes"><?php echo $Details['image_des']; ?></textarea>
-
-                                    <input type="submit" class="btn btn-success" name="submit" value="Update Data">
+                                    <table>
+                                        <tr>
+                                            <td><input type="file" name="my_image" value="<?php echo $Details['image_url']; ?>">
+                                            </td>
+                                            <td><textarea name="imgDes" style="margin:10px"
+                                                    autofocus><?php echo $Details['image_des']; ?></textarea></td>
+                                            <td><input type="submit" style="margin-left:auto; margin-right: 0;"
+                                                    class="btn btn-success" name="submit" value="Update Data"></td>
+                                        </tr>
+                                    </table>
                                     <?php
 
                                 }
@@ -252,7 +293,7 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                             <?php
                         }
                         ?>
-                        <button id="Cancel" onclick="closePopup(); return false;"> Cancel</button>
+                        <button id="Cancel" class="btn btn-success" onclick="closePopup(); return false;"> Cancel</button>
 
                     </div>
 
@@ -297,10 +338,10 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
 
     </html>
     <?php
-}else{
-    if(!isset($_COOKIE['user'])){
+} else {
+    if (!isset($_COOKIE['user'])) {
         echo "Please Include Copyrights and Refresh 😁😁";
-    }else{
+    } else {
         echo "Invalid Request";
     }
 }

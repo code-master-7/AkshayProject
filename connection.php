@@ -5,7 +5,7 @@ if (isset($_COOKIE['user'])) {
 
     $i = mysqli_query($con_server, "SHOW DATABASES LIKE 'Akshay' ");
 
-    // if($i){
+    if($i){
     $sql = 'CREATE DATABASE IF NOT EXISTS Akshay;';
 
     if (mysqli_query($con_server, $sql)) {
@@ -13,7 +13,7 @@ if (isset($_COOKIE['user'])) {
         echo 'Error creating database: ' . mysqli_error() . "\n";
     }
 
-    // }
+     }
 
     $con_db = mysqli_select_db($con_server, "Akshay");
 } else {

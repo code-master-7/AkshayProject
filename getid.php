@@ -29,7 +29,8 @@ $sql3 = 'CREATE TABLE IF NOT EXISTS `images` (
   `email` text NOT NULL,
   `post_id` int(11) NOT NULL,
   `project_id` int(11) NOT NULL,
-  `post_title` varchar(100) NOT NULL
+  `post_title` varchar(100) NOT NULL,
+  `typ` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
   ';
 
@@ -38,17 +39,17 @@ if (mysqli_query($con_server, $sql) && mysqli_query($con_server, $sql3) && mysql
     // $sql01 = 'ALTER TABLE `client`
     // ADD PRIMARY KEY (`email`);';
 
-    $sql11 = 'ALTER TABLE `project`
-    ADD PRIMARY KEY (`project_id`);';
+    // $sql11 = 'ALTER TABLE `project`
+    // ADD PRIMARY KEY (`project_id`);';
 
-    $sql111 = 'ALTER TABLE `project`
-    MODIFY `project_id` int(11) NOT NULL AUTO_INCREMENT;';
+    // $sql111 = 'ALTER TABLE `project`
+    // MODIFY `project_id` int(11) NOT NULL AUTO_INCREMENT;';
 
-    $sql21 = 'ALTER TABLE `post`
-    ADD PRIMARY KEY (`post_id`);';
+    // $sql21 = 'ALTER TABLE `post`
+    // ADD PRIMARY KEY (`post_id`);';
 
-    $sql01 = 'ALTER TABLE `post`
-    MODIFY `post_id` int(11) NOT NULL AUTO_INCREMENT;';
+    // $sql01 = 'ALTER TABLE `post`
+    // MODIFY `post_id` int(11) NOT NULL AUTO_INCREMENT;';
 
     $sql31 = 'ALTER TABLE `images`
     ADD PRIMARY KEY (`image_id`);';
@@ -60,6 +61,7 @@ if (mysqli_query($con_server, $sql) && mysqli_query($con_server, $sql3) && mysql
     // mysqli_query($con_server, $sql11);
     // mysqli_query($con_server, $sql111);
     // mysqli_query($con_server, $sql21);
+
     // mysqli_query($con_server, $sql31);
     // mysqli_query($con_server, $sql121);
 
