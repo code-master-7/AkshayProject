@@ -18,30 +18,33 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
             integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
-        <title>Akshay</title>
+        <title>Aclic</title>
     </head>
 
     <body>
         <div class="d-flex bg" id="wrapper">
 
-            <div id="page-content-wrapper">
+            <div id="page-content-wrapper" style="background-color: #f4f4f4;">
                 <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
-                    <!-- <div class="d-flex align-items-center">
-                        <i class="fas fa-align-left primary-text fs-4 me-3" id="menu-toggle"></i>
-                        <h2 class="fs-2 m-0">List Of Post</h2>
-                    </div> -->
-                    <div style="margin: 0 0 0 50%">
-                        <img src="images\LOGO-.png" height="75" width="75">
+                    <div style="  display: block; margin-left: auto; margin-right: auto;">
+                        <?php
+                        $query_getLogo = "select logoImage from client where project_id = '$id';";
+                        $SQL_getLogo = mysqli_query($con_server, $query_getLogo);
+
+                        while ($logo = mysqli_fetch_assoc($SQL_getLogo)) {
+                            if($logo['logoImage'] != ''){
+                            ?>
+                            <img src="images\<?php echo $logo['logoImage']; ?>" height="auto" width="auto">
+                            <?php
+                            }
+                        }
+                        ?>
+
                     </div>
                 </nav>
                 <section class="form" style="margin: 10px">
                     <form action="addclient.php" method="POST">
                         <table style="width: 100%">
-                            <!-- <tr>
-                                <td colspan="6">
-                                    <h1 class="font-weight-bold py-3">Information of Client</h1>
-                                </td>
-                            </tr> -->
                             <?php
                             $getClientInfo = "select * from client where project_id = '$id';";
 
@@ -63,7 +66,7 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                 <tr>
                                     <td>
                                         <div class="form-row">
-                                            client Name:<input type="text" name="cName" placeholder="Client-Name"
+                                            Client Name:<input type="text" name="cName" placeholder="Client-Name"
                                                 value="<?php echo $clientInfo['name']; ?>" class="form-control my-1">
                                         </div>
                                     </td>
@@ -199,10 +202,11 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                                                 ?>
                                                                 <div style="position: relative;">
                                                                     <img src="images/<?php echo $ans['image_url']; ?>" class="img-fluid"
-                                                                        style="width:auto; height:auto;pointer-events: none;" class="card-img-top " alt="Img">
+                                                                        style="width:auto; height:auto;pointer-events: none;"
+                                                                        class="card-img-top " alt="Img">
                                                                     <a href="images/<?php echo $ans['image_url']; ?>" target="_blank">
                                                                         <div style="position: absolute; top: 0px;
-   left: 0px; opacity:1; height: 100%; width:100%; margin:0 0 auto 0 opacity: 1 color:white">© copywrite
+   left: 0px; opacity:1; height: 100%; width:100%; margin:0 0 auto 0 opacity: 1 color:white">
                                                                         </div>
                                                                     </a>
                                                                 </div>
@@ -224,6 +228,9 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                                                 <a href="demo.php?id=<?php $idd = encryptor('encrypt', $id);
                                                                 echo $idd; ?>&&image_id=<?php echo $ans['image_id']; ?>"
                                                                     class="btn btn-primary">Edit</a>
+                                                                <a href="worker.php?id=<?php $idd = encryptor('encrypt', $id);
+                                                                echo $idd; ?>&&work=delete&&imageId=<?php echo $ans['image_id']; ?>"
+                                                                    class="btn btn-danger">Delete</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -266,12 +273,13 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                             $getData = mysqli_query($con_server, $query_getData);
 
                             ?>
-                            <form action="upload.php" method="post" enctype="multipart/form-data">
-                                <?php
-                                while ($Details = mysqli_fetch_assoc($getData)) {
-                                    ?>
+
+                            <?php
+                            while ($Details = mysqli_fetch_assoc($getData)) {
+                                ?>
+                                <form action="upload.php" method="post" enctype="multipart/form-data">
                                     <input type="hidden" name="pID" value="<?php echo $Details['post_id']; ?>">
-                                    <input type="hidden" name="work" value="Update">
+                                    <input type="hidden" name="work" value="UpdateImage">
                                     <input type="hidden" name="image_id" value="<?php echo $image_id; ?>">
                                     <input type="hidden" name="id" value="<?php $idd = encryptor('encrypt', $project_id);
                                     echo $idd; ?>">
@@ -279,17 +287,37 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                         <tr>
                                             <td><input type="file" name="my_image" value="<?php echo $Details['image_url']; ?>">
                                             </td>
-                                            <td><textarea name="imgDes" style="margin:10px"
-                                                    autofocus><?php echo $Details['image_des']; ?></textarea></td>
+                                            <input type="hidden" name="imgDes" value="<?php echo $Details['image_des']; ?>">
+                                                <!-- <textarea name="imgDes" style="margin:10px"
+                                                    autofocus><?php //echo $Details['image_des']; ?></textarea> -->
+                                            
                                             <td><input type="submit" style="margin-left:auto; margin-right: 0;"
-                                                    class="btn btn-success" name="submit" value="Update Data"></td>
+                                                    class="btn btn-success" name="submit" value="Update Image"></td>
+                                        </tr>
+                                    
+                                </form>
+                                <form action="upload.php" method="post" enctype="multipart/form-data">
+                                    <input type="hidden" name="pID" value="<?php echo $Details['post_id']; ?>">
+                                    <input type="hidden" name="work" value="UpdateText">
+                                    <input type="hidden" name="image_id" value="<?php echo $image_id; ?>">
+                                    <input type="hidden" name="id" value="<?php $idd = encryptor('encrypt', $project_id);
+                                    echo $idd; ?>">
+                                    
+                                        <tr>
+                                            <input type="hidden" name="my_image" value="<?php echo $Details['image_url']; ?>">
+                                            <td><textarea name="imgDes" style="margin:10px"
+                                                    autofocus><?php echo $Details['image_des']; ?></textarea>
+                                            </td>
+                                            <td><input type="submit" style="margin-left:auto; margin-right: 0;"
+                                                    class="btn btn-success" name="submit" value="Update text"></td>
                                         </tr>
                                     </table>
-                                    <?php
+                                </form>
+                                <?php
 
-                                }
-                                ?>
-                            </form>
+                            }
+                            ?>
+
                             <?php
                         }
                         ?>

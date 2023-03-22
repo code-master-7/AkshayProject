@@ -36,12 +36,12 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
             }
 
             body {
-                background: #c1efde;
+                background: #f4f4f4;
                 height: 100vh;
             }
 
             .row {
-                background: #ddfaef;
+                background: #f4f4f4;
                 border-radius: 30px;
                 margin-top: 2rem;
             }
@@ -208,11 +208,12 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
 
                     <div class="col-lg-7 px-5 pt-5">
                         <h1 class="font-weight-bold py-3">Information of Client</h1>
-                        <form action="addclient.php" method="POST">
+                        <form action="upload.php" method="POST" enctype="multipart/form-data">
 
+                        <input type="hidden" name="create" value="Addclient">
                             <div class="form-row">
                                 <div class="col-lg-7">
-                                    Clinet Name:<input type="text" name="cName" placeholder="Client-Name"
+                                    Client Name:<input type="text" name="cName" placeholder="Client-Name"
                                         class="form-control my-1">
                                 </div>
                             </div>
@@ -243,18 +244,20 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                         class="form-control my-1">
                                 </div>
                             </div>
+                            <div class="form-row">
+                                <div class="col-lg-7">
+                                    Logo: <input type="file" name="my_image">
+                                </div>
+                            </div>
 
                             <div class="bcd">
                                 <div class="row2">
                                     <input type="hidden" name="project_id" value="<?php echo $id; ?>">
-                                    <input type="Submit" class="btn0 btn-success" value="Save">
+                                    <input type="Submit" class="btn btn-success" style="color: #fff; background-color: #FF6600;" value="Save">
                                 </div>
                             </div>
                         </form>
                     </div>
-
-                    <div class="col-lg-7"></div>
-
                 </div>
             </div>
         </section>

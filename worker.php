@@ -53,6 +53,37 @@ if (isset($_GET['id']) && isset($_GET['work']) ) {
 
             break;
 
+        case 'delete'  :
+            echo "delete";
+            $image = $_GET['imageId'];
+
+            $query_delete = "DELETE FROM `images` WHERE image_id = '$image'";
+
+            $sql_delete = mysqli_query($con_server,$query_delete);
+
+            if($sql_delete){
+                $pass = encryptor('encrypt', $id);
+                header("location: demo.php?id=$pass");
+            }
+
+            break;          
+
+        case 'deleteproject':
+            $query_delete_client = "DELETE FROM `client` WHERE `project_id` = $id; ";
+            $query_delete_images = "DELETE FROM `images` WHERE `project_id` = $id; ";
+            $query_delete_post = "DELETE FROM `post` WHERE `project_id` = $id; ";
+            $query_delete_project = "DELETE FROM `project` WHERE `project_id` = $id; ";
+
+            $sql_delete_client = mysqli_query($con_server,$query_delete_client);
+            $sql_delete_image = mysqli_query($con_server,$query_delete_images);
+            $sql_delete_postt = mysqli_query($con_server,$query_delete_post);
+            $sql_delete_project = mysqli_query($con_server,$query_delete_project);
+
+            if($sql_delete_client && $sql_delete_image && $sql_delete_postt && $sql_delete_project){
+                header("location: index.php");
+            }
+
+            break;
         default:
         echo "ERROR";
         break;

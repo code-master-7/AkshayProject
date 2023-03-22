@@ -1,8 +1,13 @@
 :root {
-    --main-bg-color:#009d63;
-    --main-text-color:#009d63;
+    --main-bg-color:#f4f4f4;
+    --main-text-color:#f4f4f4;
     --second-text-color:#bbbec5;
     --second-bg-color: #c1efde;
+}
+.btn-success{
+    color: #fff;
+    background-color: #FF6600;
+    border-color: #FF6600;
 }
 
 .primary-text {
@@ -112,10 +117,9 @@
     left: 50%;
     width:50%;
     height:50%;
-    margin-top:( height/2)*-1; /*set to a negative number 1/2 of your height*/
-    margin-left: ( width/2)*-1; /*set to a negative number 1/2 of your width*/
-    /* border: 1px solid #ccc;
-    background-color: #f3f3f3; */
+    margin-top:( height/2)*-1; 
+    margin-left: ( width/2)*-1; 
+
 
     top: 50%;
     opacity: 1;
@@ -155,7 +159,7 @@
     color: white;
     margin-top: 40px;
     margin-bottom: 40px;
-    background-color: #C0974F;
+    background-color: #FF6600;
     margin-right: 20px;
     cursor: pointer;
 }

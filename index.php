@@ -4,9 +4,13 @@
 
 include "connection.php";
 include "enc.php";
+
 session_start();
+
 if (isset($_SESSION['user'])) {
+
 // unset ($_SESSION['user']);
+
     if (isset($_COOKIE['user'])) {
         ?>
 
@@ -20,17 +24,17 @@ if (isset($_SESSION['user'])) {
                 integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
                 crossorigin="anonymous" referrerpolicy="no-referrer" />
             <link rel="stylesheet" href="style.css">
-            <title>Akshay</title>
+            <title>Aclic</title>
         </head>
 
-        <body>
+        <body >
             <div class="d-flex" id="wrapper">
-
-                <div id="page-content-wrapper">
+                <div id="page-content-wrapper" style="
+    background-color: #f4f4f4;">
                     <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
                         <div class="d-flex align-items-center" style="width: 100%">
 
-                            <h2 class="fs-2 m-0">Akshay</h2>
+                            <h2 class="fs-2 m-0">Aclic</h2>
                             <form action="getid.php" method="get" style="margin-left: auto; margin-right:0;">
                                 <input type="submit" class="btn btn-success" value="Add Project">
                             </form>
@@ -76,6 +80,8 @@ if (isset($_SESSION['user'])) {
                                             </td>
                                             <td><a href="demo.php?id=<?php $id = encryptor('encrypt', $ans['project_id']);
                                             echo $id; ?>" class="btn bt-seccuess">Edit</a></td>
+                                            <td><a href="worker.php?id=<?php $id = encryptor('encrypt', $ans['project_id']);
+                                            echo $id; ?>&&work=deleteproject" class="btn bt-danger">Delete</a></td>
 
                                         </tr>
                                         <?php
