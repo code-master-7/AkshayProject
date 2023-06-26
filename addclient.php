@@ -12,7 +12,7 @@ if (isset($_POST['cName']) && isset($_POST['cemail']) && isset($_POST['cnumber']
     $project = $_POST['cProject'];
     $id = $_POST['project_id'];
     // echo $name;
-    echo $id;
+    // echo $id;
 
     if (isset($_POST['Work'])) {
 
@@ -23,7 +23,7 @@ if (isset($_POST['cName']) && isset($_POST['cemail']) && isset($_POST['cnumber']
         $u_client = mysqli_query($con_server,$update_query_client);
         $u_project = mysqli_query($con_server,$update_query_project);
         if($u_client && $u_project){
-            echo "party";
+            // echo "party";
             $pass = encryptor('encrypt', $id);
 
             header("location: demo.php?id=$pass");
@@ -41,7 +41,7 @@ if (isset($_POST['cName']) && isset($_POST['cemail']) && isset($_POST['cnumber']
 
         $num = mysqli_num_rows($run);
 
-        echo $num;
+        // echo $num;
 
         $get_post_id = 0;
 

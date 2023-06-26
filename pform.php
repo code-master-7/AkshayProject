@@ -5,7 +5,7 @@ include "enc.php";
 
 
 
-if (isset($_GET['id']) && isset($_COOKIE['user'])) {
+if (isset($_GET['id']) ) {
     $id = $_GET['id'];
     $id = encryptor('decrypt', $id);
     // echo $id;
@@ -195,8 +195,7 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
         <div class="card text-center">
             <div class="card-header">
                 <ul class="nav nav-tabs card-header-tabs">
-                    <i class="fas fa-user-secret me-2"></i>
-                    <h2>Akshay</h2>
+                    <h2>Aclic</h2>
                 </ul>
             </div>
         </div>
@@ -226,7 +225,7 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
 
                             <div class="form-row">
                                 <div class="col-lg-7">
-                                    Number: <input type="number" name="cnumber" placeholder="Enter Number"
+                                    Mobile Number: <input type="tel" name="cnumber" placeholder="Enter Number"
                                         class="form-control my-1">
                                 </div>
                             </div>
@@ -278,11 +277,9 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
 </body>
 <?php
 } else {
-    if (!isset($_COOKIE['user'])) {
-        echo "Please Include Copyrights and Refresh 😁😁";
-    } else {
+
         echo "Invlaid request";
-    }
+    
 }
 include 'footer.php';
 

@@ -1,6 +1,5 @@
 <?php
 
-if (isset($_COOKIE['user'])) {
     $con_server = mysqli_connect("localhost", "root", "");
 
     $i = mysqli_query($con_server, "SHOW DATABASES LIKE 'Akshay' ");
@@ -16,10 +15,7 @@ if (isset($_COOKIE['user'])) {
      }
 
     $con_db = mysqli_select_db($con_server, "Akshay");
-} else {
-    echo "Please Include Copyrights and Refresh 😁😁";
-    include 'footer.php';
-}
+
 
 
 ?>

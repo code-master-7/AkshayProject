@@ -1,0 +1,976 @@
+[11-Apr-2023 09:08:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:08:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:08:42 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:08:47 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:09:01 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:09:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:12:28 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:12:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/getid.php:76) in /home2/pre3so/public_html/projects/getid.php on line 102
+[11-Apr-2023 09:12:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/getid.php:76) in /home2/pre3so/public_html/projects/getid.php on line 102
+[11-Apr-2023 09:14:51 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:14:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/getid.php:76) in /home2/pre3so/public_html/projects/getid.php on line 102
+[11-Apr-2023 09:15:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/getid.php:76) in /home2/pre3so/public_html/projects/getid.php on line 102
+[11-Apr-2023 09:16:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:18:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:9) in /home2/pre3so/public_html/projects/worker.php on line 51
+[11-Apr-2023 09:21:47 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:21:52 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:23:13 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:23:15 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:23:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:23:23 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:23:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:23:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:23:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:25:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:25:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 144
+[11-Apr-2023 09:25:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:25:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:25:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 144
+[11-Apr-2023 09:25:51 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:25:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 144
+[11-Apr-2023 09:26:27 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:26:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 144
+[11-Apr-2023 09:26:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:27:22 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:27:25 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:27:29 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:27:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 145
+[11-Apr-2023 09:28:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:28:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:28:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 143
+[11-Apr-2023 09:28:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 146
+[11-Apr-2023 09:28:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:28:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 143
+[11-Apr-2023 09:28:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 146
+[11-Apr-2023 09:28:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:28:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 143
+[11-Apr-2023 09:28:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 146
+[11-Apr-2023 09:35:21 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:35:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:35:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:35:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:35:53 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:35:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:35:56 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:35:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:36:09 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:36:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:36:10 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:36:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:36:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:36:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:36:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:36:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:36:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:36:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:36:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:36:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:37:55 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:37:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 120
+[11-Apr-2023 09:38:56 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:38:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 120
+[11-Apr-2023 09:38:58 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:38:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 120
+[11-Apr-2023 09:39:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/adminLogin.php:8) in /home2/pre3so/public_html/projects/adminLogin.php on line 9
+[11-Apr-2023 09:39:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/adminLogin.php:8) in /home2/pre3so/public_html/projects/adminLogin.php on line 9
+[11-Apr-2023 09:39:56 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:39:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 120
+[11-Apr-2023 09:41:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:41:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:41:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:41:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:41:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:41:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:46:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:46:58 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:46:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:47:11 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:47:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:48:16 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:48:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:48:47 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 8
+[11-Apr-2023 09:48:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 119
+[11-Apr-2023 09:49:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 117
+[11-Apr-2023 09:49:57 UTC] PHP Warning:  Undefined global variable $_SESSION in /home2/pre3so/public_html/projects/index.php on line 7
+[11-Apr-2023 09:49:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2/pre3so/public_html/projects/index.php on line 7
+[11-Apr-2023 09:49:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 118
+[11-Apr-2023 09:50:54 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 23
+[11-Apr-2023 09:50:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 122
+[11-Apr-2023 09:53:22 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 4
+[11-Apr-2023 09:53:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 122
+[11-Apr-2023 09:53:23 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 4
+[11-Apr-2023 09:53:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 122
+[11-Apr-2023 09:55:00 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 09:55:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 123
+[11-Apr-2023 09:55:05 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 09:55:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 123
+[11-Apr-2023 09:55:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 09:55:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 123
+[11-Apr-2023 09:55:21 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 09:55:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 123
+[11-Apr-2023 09:55:59 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 09:55:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 123
+[11-Apr-2023 09:56:01 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 09:56:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 123
+[11-Apr-2023 09:56:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 09:56:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 123
+[11-Apr-2023 09:56:03 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 09:56:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 123
+[11-Apr-2023 09:56:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 09:56:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 123
+[11-Apr-2023 09:56:13 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 09:56:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 123
+[11-Apr-2023 09:58:09 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 6
+[11-Apr-2023 09:58:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 124
+[11-Apr-2023 09:58:12 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 6
+[11-Apr-2023 09:58:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 124
+[11-Apr-2023 09:58:12 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 6
+[11-Apr-2023 09:58:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 124
+[11-Apr-2023 09:58:13 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 6
+[11-Apr-2023 09:58:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 124
+[11-Apr-2023 10:04:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 6
+[11-Apr-2023 10:04:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 124
+[11-Apr-2023 10:06:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 10:06:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 124
+[11-Apr-2023 10:06:27 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 10:06:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 124
+[11-Apr-2023 10:06:27 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 10:06:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 124
+[11-Apr-2023 10:06:57 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 10:06:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 124
+[11-Apr-2023 10:06:57 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 10:06:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 124
+[11-Apr-2023 10:06:58 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 10:06:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 124
+[11-Apr-2023 10:06:58 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/pre3so/public_html/projects/index.php on line 5
+[11-Apr-2023 10:06:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/index.php:1) in /home2/pre3so/public_html/projects/index.php on line 124
+[11-Apr-2023 10:08:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:9) in /home2/pre3so/public_html/projects/worker.php on line 51
+[11-Apr-2023 10:11:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:17) in /home2/pre3so/public_html/projects/worker.php on line 51
+[11-Apr-2023 10:11:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:17) in /home2/pre3so/public_html/projects/worker.php on line 51
+[11-Apr-2023 10:11:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:17) in /home2/pre3so/public_html/projects/worker.php on line 51
+[11-Apr-2023 10:11:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:17) in /home2/pre3so/public_html/projects/worker.php on line 51
+[11-Apr-2023 10:11:25 UTC] PHP Warning:  Undefined array key "create" in /home2/pre3so/public_html/projects/upload.php on line 37
+[11-Apr-2023 10:11:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:6) in /home2/pre3so/public_html/projects/upload.php on line 141
+[11-Apr-2023 10:15:10 UTC] PHP Warning:  Undefined array key "create" in /home2/pre3so/public_html/projects/upload.php on line 37
+[11-Apr-2023 10:15:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:7) in /home2/pre3so/public_html/projects/upload.php on line 141
+[11-Apr-2023 10:15:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:57) in /home2/pre3so/public_html/projects/worker.php on line 66
+[11-Apr-2023 10:16:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:7) in /home2/pre3so/public_html/projects/upload.php on line 81
+[11-Apr-2023 10:16:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:7) in /home2/pre3so/public_html/projects/upload.php on line 81
+[11-Apr-2023 10:17:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:7) in /home2/pre3so/public_html/projects/upload.php on line 81
+[11-Apr-2023 10:17:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:6) in /home2/pre3so/public_html/projects/upload.php on line 81
+[11-Apr-2023 10:18:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:6) in /home2/pre3so/public_html/projects/upload.php on line 81
+[11-Apr-2023 10:18:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:6) in /home2/pre3so/public_html/projects/upload.php on line 81
+[11-Apr-2023 10:18:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:6) in /home2/pre3so/public_html/projects/upload.php on line 81
+[11-Apr-2023 10:19:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:6) in /home2/pre3so/public_html/projects/upload.php on line 81
+[11-Apr-2023 10:21:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/addclient.php:15) in /home2/pre3so/public_html/projects/addclient.php on line 29
+[11-Apr-2023 10:21:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/addclient.php:15) in /home2/pre3so/public_html/projects/addclient.php on line 29
+[11-Apr-2023 10:22:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/addclient.php:15) in /home2/pre3so/public_html/projects/addclient.php on line 29
+[11-Apr-2023 10:23:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:17) in /home2/pre3so/public_html/projects/worker.php on line 51
+[11-Apr-2023 10:23:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:17) in /home2/pre3so/public_html/projects/worker.php on line 51
+[11-Apr-2023 10:25:39 UTC] PHP Warning:  Undefined array key "create" in /home2/pre3so/public_html/projects/upload.php on line 37
+[11-Apr-2023 10:25:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:37) in /home2/pre3so/public_html/projects/upload.php on line 141
+[11-Apr-2023 10:28:46 UTC] PHP Warning:  Undefined array key "create" in /home2/pre3so/public_html/projects/upload.php on line 37
+[11-Apr-2023 10:28:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:37) in /home2/pre3so/public_html/projects/upload.php on line 141
+[12-Apr-2023 12:53:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 115
+[12-Apr-2023 12:53:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 115
+[12-Apr-2023 12:54:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 115
+[12-Apr-2023 12:55:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 114
+[12-Apr-2023 12:55:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 114
+[12-Apr-2023 12:57:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 115
+[12-Apr-2023 12:57:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 115
+[12-Apr-2023 12:59:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 115
+[12-Apr-2023 13:00:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 115
+[12-Apr-2023 13:00:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 115
+[12-Apr-2023 13:00:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 115
+[12-Apr-2023 13:01:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 115
+[12-Apr-2023 13:01:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 115
+[12-Apr-2023 13:01:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 61
+[12-Apr-2023 13:02:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 61
+[12-Apr-2023 13:02:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 59
+[12-Apr-2023 13:02:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 110
+[12-Apr-2023 13:02:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 110
+[12-Apr-2023 13:03:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 110
+[12-Apr-2023 13:03:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 110
+[12-Apr-2023 13:03:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 110
+[12-Apr-2023 13:03:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 59
+[12-Apr-2023 13:03:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 110
+[12-Apr-2023 13:04:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 59
+[12-Apr-2023 13:04:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 81
+[12-Apr-2023 13:04:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 81
+[12-Apr-2023 13:06:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 81
+[12-Apr-2023 13:06:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 81
+[12-Apr-2023 13:06:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 81
+[12-Apr-2023 13:10:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 122
+[12-Apr-2023 13:10:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 122
+[12-Apr-2023 13:20:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 104
+[12-Apr-2023 13:20:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 104
+[12-Apr-2023 13:23:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 59
+[12-Apr-2023 13:23:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 122
+[12-Apr-2023 13:24:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 59
+[12-Apr-2023 13:27:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 104
+[12-Apr-2023 13:27:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 59
+[12-Apr-2023 13:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 59
+[12-Apr-2023 13:30:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 81
+[12-Apr-2023 13:32:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 60
+[12-Apr-2023 13:32:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 60
+[12-Apr-2023 13:32:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 60
+[12-Apr-2023 13:32:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 60
+[12-Apr-2023 13:32:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 60
+[12-Apr-2023 13:32:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 60
+[12-Apr-2023 13:32:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 60
+[12-Apr-2023 13:32:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 105
+[12-Apr-2023 13:32:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 105
+[12-Apr-2023 13:34:27 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ADMIN_URL" in /home2/pre3so/public_html/projects/worker.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/pre3so/public_html/projects/worker.php on line 61
+[12-Apr-2023 13:34:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 124
+[12-Apr-2023 13:34:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 124
+[12-Apr-2023 13:34:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 124
+[12-Apr-2023 13:35:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 124
+[12-Apr-2023 13:35:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 124
+[12-Apr-2023 13:35:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 124
+[12-Apr-2023 13:35:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 124
+[12-Apr-2023 13:35:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 124
+[12-Apr-2023 13:35:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 124
+[12-Apr-2023 13:35:21 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ADMIN_URL" in /home2/pre3so/public_html/projects/worker.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/pre3so/public_html/projects/worker.php on line 61
+[12-Apr-2023 13:36:25 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ADMIN_URL" in /home2/pre3so/public_html/projects/worker.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/pre3so/public_html/projects/worker.php on line 61
+[12-Apr-2023 13:36:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 124
+[12-Apr-2023 13:36:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 124
+[12-Apr-2023 13:36:41 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ADMIN_URL" in /home2/pre3so/public_html/projects/worker.php:61
+Stack trace:
+#0 {main}
+  thrown in /home2/pre3so/public_html/projects/worker.php on line 61
+[12-Apr-2023 13:39:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 130
+[12-Apr-2023 13:40:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 130
+[12-Apr-2023 13:40:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 130
+[12-Apr-2023 13:40:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 130
+[12-Apr-2023 13:40:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/worker.php:5) in /home2/pre3so/public_html/projects/worker.php on line 130
+[24-Apr-2023 09:57:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[24-Apr-2023 09:58:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[24-Apr-2023 09:58:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 09:58:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 09:59:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 09:59:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 09:59:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:00:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:00:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:00:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:01:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:01:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:01:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:02:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:02:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:06:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:08:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:08:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:11:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:12:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[24-Apr-2023 10:16:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's why we offer IT solutions to help bring your vision to life. From concept to e' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:16:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's why we offer IT solutions to help bring your vision to life. From concept to e' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[24-Apr-2023 10:16:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's important to understand the challenges they face when it comes to managing the' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[24-Apr-2023 10:23:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software put your business at risk. Regular software updates are ' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[03-May-2023 08:00:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's life and message, and strive to live with greater mindfulness and kindness tow' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[03-May-2023 08:00:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's life and message, and strive to live with greater mindfulness and kindness tow' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[03-May-2023 08:02:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's life and message, and strive to live with greater mindfulness and kindness tow' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[03-May-2023 09:08:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'll guide you through each step to unlock your full potential and achieve success' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[03-May-2023 09:08:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'll guide you through each step to unlock your full potential and achieve success' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[03-May-2023 09:08:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'll guide you through each step to unlock your full potential and achieve success' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[03-May-2023 09:09:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'll guide you through each step to unlock your full potential and achieve success' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[03-May-2023 09:09:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'll guide you through each step to unlock your full potential and achieve success' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[03-May-2023 09:10:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's life and message, and strive to live with greater mindfulness and kindness tow' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[03-May-2023 09:32:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let the chaos take over. 
+
+Let our expert consultants help you streamline yo' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[03-May-2023 09:33:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let the chaos take over. 
+
+Let our expert consultants help you streamline yo' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[03-May-2023 09:33:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let the chaos take over. ','','15','2',' Post 9 23/05/2023','0')' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[17-May-2023 07:07:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:08:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:09:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:09:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:10:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:10:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:10:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:10:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:11:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:12:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:14:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:19:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:19:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:19:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:19:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:19:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:20:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't just take our word for it!! This what our satisfied customer from the same dom' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:21:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't just take our word for it!! This what our satisfied customer from the same dom' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:21:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't just take our word for it!! This what our satisfied customer from the same dom' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:21:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't just take our word for it!! This what our satisfied customer from the same dom' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:22:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's digital world.
+"' where image_id  = '96'' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:22:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's digital world.' where image_id  = '96'' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:22:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's digital world.' where image_id  = '96'' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:23:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[17-May-2023 07:24:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[17-May-2023 07:24:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:26:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:26:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:26:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's embrace the possibilities of AI-driven transformation and unleash our potentia' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:27:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's embrace the possibilities of AI-driven transformation and unleash our potentia' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:27:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't let outdated software solutions, put your business and operational efficiency ' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:29:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:30:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's embrace the possibilities of AI-driven transformation and unleash our potentia' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:30:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:41:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[17-May-2023 07:41:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[17-May-2023 07:48:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:55:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:56:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:212
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(212): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 212
+[17-May-2023 07:56:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:212
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(212): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 212
+[17-May-2023 07:56:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:212
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(212): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 212
+[17-May-2023 07:57:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'The mobile app industry is booming, with revenue expected to surpass $935 billion by 2023. Don't miss out on this opportunity to expand your business and engage with customers on the go. Wheth' in 'field list' in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:57:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'The mobile app industry is booming, with revenue expected to surpass $935 billion by 2023. Don't miss out on this opportunity to expand your business and engage with customers on the go. Wheth' in 'field list' in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:58:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'The mobile app industry is booming, with revenue expected to surpass $935 billion by 2023. Don't miss out on this opportunity to expand your business and engage with customers on the go. Wheth' in 'field list' in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:58:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'The mobile app industry is booming, with revenue expected to surpass $935 billion by 2023. Don't miss out on this opportunity to expand your business and engage with customers on the go. Wheth' in 'field list' in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 07:58:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'The mobile app industry is booming, with revenue expected to surpass $935 billion by 2023. Don't miss out on this opportunity to expand your business and engage with customers on the go. Wheth' in 'field list' in /home2/pre3so/public_html/projects/upload.php:210
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(210): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 210
+[17-May-2023 07:59:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'The mobile app industry is booming, with revenue expected to surpass $935 billion by 2023. Don't miss out on this opportunity to expand your business and engage with customers on the go. Wheth' in 'field list' in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:00:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'The mobile app industry is booming, with revenue expected to surpass $935 billion by 2023. Don't miss out on this opportunity to expand your business and engage with customers on the go. Wheth' in 'field list' in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:00:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'fgjkvhfb' in 'field list' in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:01:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'fgjkvhfb' in 'field list' in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:01:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'fgjkvhfb' in 'field list' in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:01:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'f' in 'field list' in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE images S...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:04:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'zffb' in 'field list' in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:04:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'zffbxbf' in 'field list' in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:05:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:06:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:09:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:44:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't try this' where `images`.`image_id`  = '98'' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:44:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:57:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:58:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:58:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:59:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:59:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:59:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:59:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 08:59:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 09:00:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 09:00:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 09:02:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 09:02:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 09:02:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 09:03:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 09:03:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't miss out on this opportunity to expand your business and engage with customers' at line 1 in /home2/pre3so/public_html/projects/upload.php:211
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(211): mysqli_query(Object(mysqli), 'UPDATE `images`...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 211
+[17-May-2023 09:06:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:209) in /home2/pre3so/public_html/projects/upload.php on line 212
+[18-May-2023 10:18:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' From tantalizing appetizers to delectable mains and irresistible desserts, we have the perfect flavors to satisfy your taste buds. 
+
+Come and experience culinary bliss with us today!
+
+Con' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:19:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' From tantalizing appetizers to delectable mains and irresistible desserts, we have the perfect flavors to satisfy your taste buds. 
+
+Come and experience culinary bliss with us today!
+
+Con' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:19:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' From tantalizing appetizers to delectable mains and irresistible desserts, we have the perfect flavors to satisfy your taste buds. 
+
+Come and experience culinary bliss with us today!
+
+Con' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:19:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' From tantalizing appetizers to delectable mains and irresistible desserts, we have the perfect flavors to satisfy your taste buds. 
+
+Come and experience culinary bliss with us today!
+
+Con' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:20:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' ' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:20:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' ' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:21:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' From tantalizing appetizers to delectable mains and irresistible desserts, we have the perfect flavors to satisfy your taste buds. 
+
+Come and experience culinary bliss with us today!
+
+Con' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:24:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' From tantalizing appetizers to delectable mains and irresistible desserts, we have the perfect flavors to satisfy your taste buds. 
+
+Come and experience culinary bliss with us today!
+
+Con' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:24:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'nfubfu' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:24:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' uhuuds' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:24:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tsdtscd' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:25:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' From tantalizing appetizers to delectable mains and irresistible desserts, we have the perfect flavors to satisfy your taste buds. 
+
+Come and experience culinary bliss with us today!
+
+Con' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:25:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'g' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:25:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' ' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:26:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' nvvdbv' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:26:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' rde' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:31:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' From tantalizing appetizers to delectable mains and irresistible desserts, we have the perfect flavors to satisfy your taste buds. 
+
+Come and experience culinary bliss with us today!
+
+Con' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:32:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' From tantalizing appetizers to delectable mains and irresistible desserts, we have the perfect flavors to satisfy your taste buds. 
+
+Come and experience culinary bliss with us today!
+
+Con' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:33:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column ' From tantalizing appetizers to delectable mains and irresistible desserts, we have the perfect flavors to satisfy your taste buds. 
+
+Come and experience culinary bliss with us today!
+
+Con' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:34:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'zf' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:38:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'asdf' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:39:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'asdf' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:40:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'asdf' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO ima...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:41:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'asdf' in 'field list' in /home2/pre3so/public_html/projects/upload.php:143
+Stack trace:
+#0 /home2/pre3so/public_html/projects/upload.php(143): mysqli_query(Object(mysqli), 'INSERT INTO `im...')
+#1 {main}
+  thrown in /home2/pre3so/public_html/projects/upload.php on line 143
+[18-May-2023 10:42:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:141) in /home2/pre3so/public_html/projects/upload.php on line 144
+[18-May-2023 11:15:34 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpX0xjWT&quot; to &quot;images/IMG-646608d6469895.28041702.jpg&quot; in /home2/pre3so/public_html/projects/upload.php on line 88
+[18-May-2023 11:15:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:88) in /home2/pre3so/public_html/projects/upload.php on line 144
+[18-May-2023 11:15:47 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpopeQir&quot; to &quot;images/IMG-646608e38e3800.80146846.jpg&quot; in /home2/pre3so/public_html/projects/upload.php on line 88
+[18-May-2023 11:15:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/pre3so/public_html/projects/upload.php:88) in /home2/pre3so/public_html/projects/upload.php on line 144
+[18-May-2023 11:16:03 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php4lXNx5&quot; to &quot;images/IMG-646608f394c065.70823281.jpg&quot; in /home2/pre3so/public_html/proje

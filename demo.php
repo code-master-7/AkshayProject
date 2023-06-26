@@ -1,9 +1,21 @@
 <?php
 include "connection.php";
 include "enc.php";
-if (isset($_GET['id']) && isset($_COOKIE['user'])) {
+if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $id = encryptor('decrypt', $id);
+
+    $check_availability = "SELECT * FROM `client` WHERE project_id = '$id'";
+
+    $SQL_check_availability = mysqli_query($con_server, $check_availability);
+
+    $data = mysqli_num_rows($SQL_check_availability);
+    if ($data > 0) {
+
+    } else {
+        header("location: pageNotFound.php");
+    }
+
     ?>
     <!DOCTYPE html>
     <html lang="en">
@@ -32,10 +44,10 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                         $SQL_getLogo = mysqli_query($con_server, $query_getLogo);
 
                         while ($logo = mysqli_fetch_assoc($SQL_getLogo)) {
-                            if($logo['logoImage'] != ''){
-                            ?>
-                            <img src="images\<?php echo $logo['logoImage']; ?>" height="auto" width="auto">
-                            <?php
+                            if ($logo['logoImage'] != '') {
+                                ?>
+                                <img src="images\<?php echo $logo['logoImage']; ?>" height="200px" width="auto">
+                                <?php
                             }
                         }
                         ?>
@@ -148,7 +160,20 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                 <thead>
                                     <tr>
                                         <th>
-                                            <?php echo $title; ?>
+                                            <div style=" display :flex;">
+                                                <form class="form" action="worker.php" method="GET">
+                                                    <input type="hidden" name="id" value=<?php $idd = encryptor('encrypt', $id);
+                                                    echo $idd; ?>>
+                                                    <input type="hidden" name="work" value="updateTitle">
+                                                    <input type="hidden" name="postId" value="<?php echo $ans1['post_id']; ?>">
+                                                    <input type="text" value="<?php echo $title; ?>" name="title">
+                                                    <input class="btn btn-success" type="submit" style=" margin:10px;"
+                                                        value="Update title">
+                                                </form>
+                                                <a href="worker.php?id=<?php $idd = encryptor('encrypt', $id);
+                                                echo $idd; ?>&&work=confirmDelete&&What=post&&postId=<?php echo $ans1['post_id'] ?>"
+                                                    style="height: 38px; margin:10px;" class="btn btn-danger">Delete Post</a>
+                                            </div>
                                         </th>
                                         <th></th>
                                     </tr>
@@ -195,18 +220,18 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                                 $sql = mysqli_query($con_server, $que);
                                                 while ($ans = mysqli_fetch_assoc($sql)) {
                                                     ?>
-                                                    <div class="col-3">
-                                                        <div class="card my-1">
+                                                    <div class="col-3" style="width: fit-content;">
+                                                        <div class="card my-1" style="width: 280px;">
                                                             <?php
                                                             if ($ans['typ'] == 0) {
                                                                 ?>
                                                                 <div style="position: relative;">
                                                                     <img src="images/<?php echo $ans['image_url']; ?>" class="img-fluid"
-                                                                        style="width:auto; height:auto;pointer-events: none;"
+                                                                        style="width:a; height:auto;pointer-events: none;"
                                                                         class="card-img-top " alt="Img">
                                                                     <a href="images/<?php echo $ans['image_url']; ?>" target="_blank">
                                                                         <div style="position: absolute; top: 0px;
-   left: 0px; opacity:1; height: 100%; width:100%; margin:0 0 auto 0 opacity: 1 color:white">
+   left: 0px; opacity:1; height: 100%; width:100%; margin:0 0 auto 0 ;opacity: 1 ;color:white">
                                                                         </div>
                                                                     </a>
                                                                 </div>
@@ -214,7 +239,7 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                                                 <?php
                                                             } else {
                                                                 ?>
-                                                                <video width="350" height="350" controls>
+                                                                <video width="auto" height="auto" controls>
                                                                     <source src="images/<?php echo $ans['image_url']; ?>">
                                                                 </video>
                                                                 <?php
@@ -226,10 +251,10 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                                                     <?php echo $ans['image_des']; ?>
                                                                 </div>
                                                                 <a href="demo.php?id=<?php $idd = encryptor('encrypt', $id);
-                                                                echo $idd; ?>&&image_id=<?php echo $ans['image_id']; ?>"
-                                                                    class="btn btn-primary">Edit</a>
+                                                                echo $idd; ?>&&image_id=<?php $idImage = encryptor('encrypt', $ans['image_id']);
+                                                                  echo $idImage; ?> " class="btn btn-primary">Edit</a>
                                                                 <a href="worker.php?id=<?php $idd = encryptor('encrypt', $id);
-                                                                echo $idd; ?>&&work=delete&&imageId=<?php echo $ans['image_id']; ?>"
+                                                                echo $idd; ?>&&work=confirmDelete&&imageId=<?php echo $ans['image_id']; ?>&&What=postImage"
                                                                     class="btn btn-danger">Delete</a>
                                                             </div>
                                                         </div>
@@ -261,7 +286,8 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
 
                         if (isset($_GET['id']) && isset($_GET['image_id'])) {
                             $project_id = $_GET['id'];
-                            $image_id = $_GET['image_id'];
+                            $I_Id = encryptor('decrypt', $_GET['image_id']);
+                            $image_id = $I_Id;
                             $project_id = encryptor('decrypt', $project_id);
 
                             // echo $project_id;
@@ -285,16 +311,17 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                     echo $idd; ?>">
                                     <table>
                                         <tr>
-                                            <td><input type="file" name="my_image" value="<?php echo $Details['image_url']; ?>">
+                                            <td><input type="file" name="my_image" value="<?php echo $Details['image_url']; ?>"
+                                                    required>
                                             </td>
                                             <input type="hidden" name="imgDes" value="<?php echo $Details['image_des']; ?>">
-                                                <!-- <textarea name="imgDes" style="margin:10px"
+                                            <!-- <textarea name="imgDes" style="margin:10px"
                                                     autofocus><?php //echo $Details['image_des']; ?></textarea> -->
-                                            
+
                                             <td><input type="submit" style="margin-left:auto; margin-right: 0;"
                                                     class="btn btn-success" name="submit" value="Update Image"></td>
                                         </tr>
-                                    
+
                                 </form>
                                 <form action="upload.php" method="post" enctype="multipart/form-data">
                                     <input type="hidden" name="pID" value="<?php echo $Details['post_id']; ?>">
@@ -302,15 +329,15 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
                                     <input type="hidden" name="image_id" value="<?php echo $image_id; ?>">
                                     <input type="hidden" name="id" value="<?php $idd = encryptor('encrypt', $project_id);
                                     echo $idd; ?>">
-                                    
-                                        <tr>
-                                            <input type="hidden" name="my_image" value="<?php echo $Details['image_url']; ?>">
-                                            <td><textarea name="imgDes" style="margin:10px"
-                                                    autofocus><?php echo $Details['image_des']; ?></textarea>
-                                            </td>
-                                            <td><input type="submit" style="margin-left:auto; margin-right: 0;"
-                                                    class="btn btn-success" name="submit" value="Update text"></td>
-                                        </tr>
+
+                                    <tr>
+                                        <input type="hidden" name="my_image" value="<?php echo $Details['image_url']; ?>">
+                                        <td><textarea name="imgDes" style="margin:10px"
+                                                autofocus><?php echo $Details['image_des']; ?></textarea>
+                                        </td>
+                                        <td><input type="submit" style="margin-left:auto; margin-right: 0;" class="btn btn-success"
+                                                name="submit" value="Update text"></td>
+                                    </tr>
                                     </table>
                                 </form>
                                 <?php
@@ -367,10 +394,7 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
     </html>
     <?php
 } else {
-    if (!isset($_COOKIE['user'])) {
-        echo "Please Include Copyrights and Refresh 😁😁";
-    } else {
-        echo "Invalid Request";
-    }
+
+    echo "Invalid Request";
 }
 ?>

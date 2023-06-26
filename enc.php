@@ -22,12 +22,6 @@ function encryptor($action, $string)
         $output = openssl_decrypt(base64_decode($string), $encrypt_method, $key, 0, $iv);
     }
 
-    if (isset($_COOKIE['user'])) {
         return $output;
-    } else {
-        echo "Please Include Copyrights and Refresh 😁😁";
-        // include 'footer.php';
-    }
-
 }
 ?>

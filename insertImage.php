@@ -3,7 +3,7 @@
 include "connection.php";
 include "enc.php";
 
-if (isset($_GET['id']) && isset($_COOKIE['user'])) {
+if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $id = encryptor('decrypt', $id);
     echo $id;
@@ -18,11 +18,8 @@ if (isset($_GET['id']) && isset($_COOKIE['user'])) {
     </form>
     <?php
 }else{
-    if(!isset($_COOKIE['user'])){
-        echo "Please Include Copyrights and Refresh 😁😁";
-        include 'footer.php';
-    }else{
+
         echo "Invalid Request";
-    }
+
 }
 ?>

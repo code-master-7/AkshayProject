@@ -77,7 +77,7 @@ $run = mysqli_query($con_server, $query);
 
 $num = mysqli_num_rows($run);
 
-echo $num;
+// echo $num;
 
 $id;
 
@@ -91,13 +91,15 @@ if ($num == 0) {
 } else {
     if ($run) {
         while ($ans = mysqli_fetch_assoc($run)) {
-            $i = $ans['project_id'] + 1;
+            $i = $ans['project_id'] + 2;
             // echo $i;
             $id = encryptor('encrypt', $i);
             header("location: pform.php?id=$id");
             // echo $ans['project_id'];
         }
         // echo "party";
+    }else{
+        echo "cant run0";
     }
 }
 
